@@ -1,0 +1,338 @@
+/* Impor Font dari Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    /* Palet Warna Dasar */
+    --primary-bg: #FFFFFF;
+    --secondary-bg: #F0F4F7;
+    --tertiary-bg: #FFFFFF;
+    --primary-text: #333333;
+    --border-color: #DDE6ED;
+
+    /* Warna Header (gaya outline/standar) */
+    --header-bg: #FFFFFF;
+    --header-text-title: #2A7A72;
+    --header-btn-color: #5F6368;
+    --header-btn-hover-bg: #E8F0FE;
+
+    /* Warna Tombol Gaya "Donasi" (Solid) */
+    --donasi-style-button-bg: #1fb3a4;
+    --donasi-style-button-text: #FFFFFF;
+    --donasi-style-button-hover-bg: #18897b;
+
+    /* Warna Tombol Kategori */
+    --category-button-bg: #E8F5F4;
+    --category-button-text: #2A7A72;
+    --category-button-hover-bg: #D0E5E3;
+    --category-button-active-bg: #2A7A72;
+    --category-button-active-text: #FFFFFF;
+
+    /* Font Families */
+    --font-family-osmanlica: 'Amiri', 'Times New Roman', serif;
+    --font-family-latin: 'Outfit', 'Arial', sans-serif;
+
+    /* Ukuran Konsisten Tombol Header */
+    --header-button-height: 38px; /* Tinggi tombol header di desktop */
+    --header-button-min-width: 40px; /* Lebar minimal tombol header di desktop */
+    --header-button-padding-x: 10px; /* Padding horizontal dasar tombol header */
+
+    --header-button-height-mobile: 34px; /* Tinggi tombol header di mobile */
+    --header-button-min-width-mobile: 36px; /* Lebar minimal tombol header di mobile */
+    --header-button-padding-x-mobile: 8px; /* Padding horizontal dasar tombol header di mobile */
+}
+
+[data-theme="dark"] {
+    /* Palet Gelap */
+    --primary-bg: #121212;
+    --secondary-bg: #1E1E1E;
+    --tertiary-bg: #2C2C2C;
+    --primary-text: #E0E0E0;
+    --border-color: #424242;
+
+    /* Header Gelap */
+    --header-bg: #1E1E1E;
+    --header-text-title: #58C0B6;
+    --header-btn-color: #B0B0B0;
+    --header-btn-hover-bg: #333333;
+
+    /* Tombol Gaya "Donasi" Gelap */
+    --donasi-style-button-bg: #21c9b6;
+    --donasi-style-button-text: #121212;
+    --donasi-style-button-hover-bg: #1fb3a4;
+
+    /* Tombol Kategori Gelap */
+    --category-button-bg: #2A7A72;
+    --category-button-text: #FFFFFF;
+    --category-button-hover-bg: #3B8A82;
+    --category-button-active-bg: #58C0B6;
+    --category-button-active-text: #000000;
+}
+
+body {
+    margin: 0;
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+    line-height: 1.8;
+    transition: background-color 0.3s, color 0.3s;
+    font-family: var(--font-family-latin);
+}
+
+html[lang="ota"] body {
+    font-family: var(--font-family-osmanlica);
+}
+
+html[lang="ota"] .header-btn,
+html[lang="ota"] .category-btn,
+html[lang="ota"] .controls button,
+html[lang="ota"] #questionText,
+html[lang="ota"] #answerText {
+    font-family: var(--font-family-osmanlica);
+}
+
+html[lang="id"] .header-btn,
+html[lang="id"] .category-btn,
+html[lang="id"] .controls button,
+html[lang="id"] #questionText,
+html[lang="id"] #answerText {
+    font-family: var(--font-family-latin);
+}
+
+/* --- HEADER --- */
+header {
+    background-color: var(--header-bg);
+    padding: 10px 15px; /* Padding header keseluruhan */
+    display: grid;
+    grid-template-columns: auto 1fr auto auto; 
+    align-items: center; 
+    gap: 8px; /* Gap antar item grid header */
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1#mainTitle {
+    font-weight: normal;
+    color: var(--header-text-title);
+    font-size: 1.8em; 
+    margin: 0;
+    text-align: center;
+}
+
+html[lang="id"] header h1#mainTitle {
+    font-size: 1.6em; 
+}
+
+/* Tombol Header Umum (Dasar untuk semua tombol di header) */
+.header-btn {
+    background: none;
+    border: 1px solid var(--header-btn-color);
+    color: var(--header-btn-color);
+    padding: 0 var(--header-button-padding-x); /* Padding vertikal 0, horizontal dari variabel */
+    min-width: var(--header-button-min-width);
+    height: var(--header-button-height);
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em; 
+    line-height: var(--header-button-height); /* Samakan line-height dengan height untuk centering vertikal teks */
+}
+
+.header-btn:hover {
+    background-color: var(--header-btn-hover-bg);
+}
+
+/* Styling Khusus Tombol DarkMode (SVG) */
+#darkModeToggle {
+    /* Menggunakan style dari .header-btn */
+    /* Padding diatur oleh .header-btn, min-width juga. */
+}
+
+#darkModeToggle svg {
+    width: 1.2em; /* Ukuran SVG relatif terhadap font-size .header-btn */
+    height: 1.2em;
+    /* vertical-align: middle; tidak diperlukan jika display: inline-flex dan align-items: center di .header-btn */
+}
+
+/* Styling Khusus Tombol Ganti Bahasa (Gaya Donasi) */
+#languageToggleBtn {
+    background-color: var(--donasi-style-button-bg);
+    color: var(--donasi-style-button-text);
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-weight: 700; /* Explicitly bold */
+    font-family: var(--font-family-latin); /* Explicitly Outfit */
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    /* padding dan height sudah diatur oleh .header-btn,
+       jika "OTA" masih membuatnya lebih panjang dari "ID", itu karena konten teksnya.
+       Jika mau lebar sama persis, set width eksplisit atau atur padding horizontal
+       secara spesifik di sini untuk mengakomodasi teks terpanjang. */
+}
+
+#languageToggleBtn:hover {
+    background-color: var(--donasi-style-button-hover-bg);
+    color: var(--donasi-style-button-text); 
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); 
+}
+
+/* Tombol Hamburger (akan mengikuti style .header-btn dasar) */
+#hamburgerBtn {
+    font-size: 1.2em; /* Perbesar sedikit ikon hamburger jika dari .header-btn kurang besar */
+     /* padding dan height sudah diatur oleh .header-btn */
+}
+
+
+/* --- CONTAINER & SIDEBAR (Tidak ada perubahan dari sebelumnya) --- */
+.container { display: flex; }
+aside#sidebar {
+    width: 280px; background-color: var(--secondary-bg); padding: 20px;
+    height: calc(100vh - 60px); /* Perkiraan tinggi header, sesuaikan jika header berubah tinggi */
+    overflow-y: auto; box-sizing: border-box; position: sticky;
+    top: 60px; /* Perkiraan tinggi header */
+    transition: background-color 0.3s;
+}
+html[dir="rtl"] aside#sidebar { border-left: 1px solid var(--border-color); }
+html[dir="ltr"] aside#sidebar { border-right: 1px solid var(--border-color); }
+aside#sidebar nav { display: flex; flex-direction: column; }
+
+/* --- TOMBOL KATEGORI (Tidak ada perubahan dari sebelumnya) --- */
+.category-btn {
+    background-color: var(--category-button-bg); color: var(--category-button-text);
+    border: 1px solid var(--category-button-active-bg); /* Menggunakan warna aktif kategori untuk border */
+    padding: 12px 15px; margin-bottom: 10px; cursor: pointer; font-size: 1.1em;
+    border-radius: 4px; transition: background-color 0.2s, border-color 0.2s, box-shadow 0.2s;
+    font-weight: normal;
+}
+html[dir="rtl"] .category-btn { text-align: right; }
+html[dir="ltr"] .category-btn { text-align: left; }
+.category-btn:hover {
+    background-color: var(--category-button-hover-bg);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1), 0 1px 3px 1px rgba(0,0,0,0.08);
+}
+.category-btn.active-category,
+.category-btn[data-category="all"] {
+    background-color: var(--category-button-active-bg);
+    color: var(--category-button-active-text);
+    font-weight: bold; border-color: transparent;
+}
+.category-btn[data-category="all"] { margin-top: 15px; }
+.category-btn[data-category="all"]:hover {
+    background-color: var(--donasi-style-button-hover-bg); opacity: 1;
+}
+
+/* --- KONTEN UTAMA (SOAL & JAWABAN) (Tidak ada perubahan dari sebelumnya) --- */
+main#mainContent {
+    flex-grow: 1; padding: 30px; display: flex; flex-direction: column; align-items: center;
+}
+#questionContainer, #answerContainer {
+    background-color: var(--tertiary-bg); padding: 25px; margin-bottom: 20px;
+    border-radius: 8px; width: 100%; max-width: 700px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    min-height: 100px; box-sizing: border-box; border: 1px solid var(--border-color);
+}
+#answerContainer table {
+    width: 100%; border-collapse: collapse; margin-top: 10px; font-size: 0.95em;
+}
+#answerContainer th, #answerContainer td {
+    border: 1px solid var(--border-color); padding: 8px 10px;
+}
+html[dir="rtl"] #answerContainer th, html[dir="rtl"] #answerContainer td { text-align: right; }
+html[dir="ltr"] #answerContainer th, html[dir="ltr"] #answerContainer td { text-align: left; }
+#answerContainer th { background-color: var(--secondary-bg); font-weight: bold; }
+#questionText, #answerText {
+    font-size: 1.4em; margin: 0; white-space: pre-line;
+}
+html[dir="rtl"] #questionText, html[dir="rtl"] #answerText { text-align: right; }
+html[dir="ltr"] #questionText, html[dir="ltr"] #answerText { text-align: left; }
+#answerText span[lang="ar"][dir="rtl"] {
+    display: inline-block; font-family: var(--font-family-osmanlica);
+    font-size: 1.05em; line-height: 1.7; margin: 5px 0;
+}
+
+/* --- TOMBOL KONTROL (Gaya Donasi - Tidak ada perubahan dari sebelumnya) --- */
+.controls { display: flex; gap: 15px; }
+.controls button {
+    background-color: var(--donasi-style-button-bg); color: var(--donasi-style-button-text);
+    border: none; padding: 12px 22px; font-size: 1em; border-radius: 6px;
+    cursor: pointer; transition: background-color 0.2s, box-shadow 0.2s;
+    text-transform: uppercase; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.controls button:hover:not(:disabled) {
+    background-color: var(--donasi-style-button-hover-bg);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.controls button:disabled {
+    background-color: #cccccc; color: #888888; cursor: not-allowed;
+    opacity: 0.7; border: none; box-shadow: none;
+}
+
+/* --- RESPONSIVE - MOBILE --- */
+#hamburgerBtn { display: block; }
+@media (min-width: 769px) { #hamburgerBtn { display: none; } }
+
+@media (max-width: 768px) {
+    header {
+        padding: 8px 10px; 
+        gap: 6px; 
+    }
+    header h1#mainTitle { font-size: 1.3em !important; }
+    html[lang="id"] header h1#mainTitle { font-size: 1.2em !important; }
+    
+    .header-btn {
+        padding: 0 var(--header-button-padding-x-mobile); /* Padding vertikal 0, horizontal dari variabel mobile */
+        min-width: var(--header-button-min-width-mobile);
+        height: var(--header-button-height-mobile);
+        font-size: 0.9em; 
+        line-height: var(--header-button-height-mobile); /* Samakan dengan height */
+    }
+    
+    #languageToggleBtn {
+        font-size: 0.85em; /* Teks di tombol bahasa sedikit lebih kecil di mobile */
+        /* Padding dan height sudah dari .header-btn versi mobile */
+    }
+    
+    #darkModeToggle svg {
+        width: 1.1em; /* Sesuaikan ukuran SVG di mobile */
+        height: 1.1em;
+    }
+    
+    #hamburgerBtn {
+        font-size: 1.1em; /* Sesuaikan ikon hamburger di mobile */
+    }
+
+    aside#sidebar {
+        position: fixed; left: 0; right: 0; bottom: -100vh; 
+        width: 100%; max-height: 55vh; background-color: var(--secondary-bg);
+        box-shadow: 0 -2px 8px rgba(0,0,0,0.15);
+        border-top-left-radius: 16px; border-top-right-radius: 16px;
+        padding: 15px; padding-bottom: calc(15px + env(safe-area-inset-bottom));
+        box-sizing: border-box; overflow-y: auto; z-index: 1000;
+        transition: bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        height: auto; border-left: none; border-right: none; top: auto; transform: none;
+    }
+    aside#sidebar.open { bottom: 0; }
+    aside#sidebar nav {
+        display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px;
+    }
+    aside#sidebar .category-btn {
+        font-size: 0.85em; padding: 8px 10px; margin-bottom: 0;
+    }
+    aside#sidebar .category-btn[data-category="all"] {
+        grid-column: 1 / -1; text-align: center; margin-top: 8px;
+    }
+    main#mainContent { padding: 15px; padding-bottom: 80px; }
+    #questionText, #answerText { font-size: 1.15em; }
+    #answerContainer th, #answerContainer td { font-size: 0.8em; padding: 5px; }
+    #answerText span[lang="ar"][dir="rtl"] { font-size: 1.0em; }
+    .controls button { padding: 10px 18px; font-size: 0.95em; }
+}

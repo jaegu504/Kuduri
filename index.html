@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ota" dir="rtl"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">قدوري شريف سؤاللری</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <button id="darkModeToggle" class="header-btn">🌙</button>
+    <h1 id="mainTitle">قدوري شريف سؤاللری</h1> <button id="languageToggleBtn" class="header-btn">ID</button> <button id="hamburgerBtn" class="header-btn">☰</button>
+</header>
+
+    <div class="container">
+        <aside id="sidebar">
+            <nav>
+                <button class="category-btn" data-category="mukaddimah" data-lang-osmanlica="مقدمة" data-lang-indonesia="Mukaddimah">مقدمة</button>
+                <button class="category-btn" data-category="toharah" data-lang-osmanlica="طهارة" data-lang-indonesia="Taharah">طهارة</button>
+                <button class="category-btn" data-category="shalat" data-lang-osmanlica="نماز" data-lang-indonesia="Shalat">نماز</button>
+                <button class="category-btn" data-category="zakat" data-lang-osmanlica="زكاة" data-lang-indonesia="Zakat">زكاة</button>
+                <button class="category-btn" data-category="puasa" data-lang-osmanlica="اوروچ" data-lang-indonesia="Puasa">اوروچ</button>
+                <button class="category-btn" data-category="haji" data-lang-osmanlica="حج" data-lang-indonesia="Haji">حج</button>
+                <button class="category-btn" data-category="all" data-lang-osmanlica="بتون سواللردن" data-lang-indonesia="Semua Soal">بتون سواللردن</button>
+            </nav>
+        </aside>
+
+        <main id="mainContent">
+            <div id="questionContainer">
+                <p id="questionText">بر كاتغورى سچڭ ویا "بتون سواللردن" دوکمەسنه باصڭ.</p> </div>
+            <div id="answerContainer" style="display: none;">
+                <p id="answerText"></p>
+            </div>
+            <div class="controls">
+                <button id="showAnswerBtn" disabled>جوابی کور</button> <button id="nextQuestionBtn" disabled>ایلری</button> </div>
+        </main>
+    </div>
+
+    <script src="Scriptquduri.js"></script>
+</body>
+</html>
