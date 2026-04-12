@@ -668,160 +668,192 @@ const allQuestionsData = {
         answer: "إحصار شرعی بر عذر سببيله، إحراملي كيشينك عرفات وقفه سی و زیارت طوافندن و يا عمره ايچون إحرامه كيرمش اولانك ده طوافدن آليقونو لما سيدر بو شکلده آلیقونولان شخصه محصر دينور بو كيشينك إحرامدن چيقا بیلمه سی ایچون حرم شریفده إحصار قرباني کسمه سی لازمدر"
     },
     {
-        category: "haji", originalNumber: 133, // Di PDF Indonesia jadi soal 133, di PDF Osmanlica "۱۳۳ -"
+        category: "haji", originalNumber: 133,
         question: "هدی نه در؟",
         answer: "هدی حضرت اللهه ياقينلق ایچون حرم شریفده کسیان قرباندر بو قربان ،دوه صيغير و قویوندر بو حيوانلرك قربان إيديله بيلمه سی ایچون؛ دوه نك بش صيغيرك ايكى قويوننده بر پاشنه گیرمش اولماسی لازمدر آنجق قوچك آلتی آیلق اولانی کافی در بو شکلده حیوانلر ده آرانان پاش حدينه \"ثنیه دینور. (یعنی ۲ یاش)"
     },
-    // TAMBAHAN PERTANYAAN BARU - MUKADDIMAH
+    // BAGIAN VII: MUNAKAHAT (مناكحات)
     {
-        category: "mukaddimah", originalNumber: 134,
-        question: "حنفى فقهى سلسله سى كيملردر؟",
-        answer: "امام اعظم ← حماد ← إبراهيم النخعى ← علقمه ← عبدالله بن مسعود رضى الله عنه ← پيغمبر افنديمز صل الله عليه وسلم ← جبرائيل عليه السلام ← حضرت الله."
+        category: "munakahat", originalNumber: 134,
+        question: "نكاحك تعريفی ندر؟ ركنی ندر؟ شرطلری ندر؟ حكمی ندر؟ وصفی ندر؟ شاهدسز نكاح اولورمی؟",
+        answer: "لغتده: ضم وجمع معناسينه در.<br>شرعا: ايجاب وقبول ايله منعقد اولان قصدا ملك متعه يى إفاده ايدن بر عقددر.<br>ركنى: إيجاب و قبولدر.<br>شرطلری: ۱- معلوم زوج و زوجه نك بر مجلسده موجوديتى، ۲- ايجاب وقبولى دويان شاهدلرك حاضر اولماسى، ۳- نكاحك دائمى اولماسى، ۴- شرعى بر مانعدن خالى اولمق.<br>حكمى: زوج وزوجه نك بر بريندن استفاده سنك حلال اولماسى، مهر، نفقه و كييم زوج اوزرينه فرض اولماسى، اوكجه اولنك مالنه ديكرينك وارث اولماسيدر.<br>وصفى: توقان حالنده زنايه دوشمه احتمالى قطعى ايسه فرض، قطعى دكلسه واجب، اعتدال حالنده سنت، ظلم احتمالى وارسه مكروه، ظلم كسين ايسه حرامدر.<br>شاهدسز نكاح اولماز. ايكى اركك ويا بر اركك ايكى قادينك شاهدلكى ايله عقد ياپيلير."
     },
     {
-        category: "mukaddimah", originalNumber: 135,
-        question: "حنفى فقهنده امام، امامين، طرفين و شيخين كيملره دينور؟",
-        answer: "<b>امام؛</b> امام اعظم ابو حنيفه حضرتلريدر.<br><b>امامين؛</b> امام ابو يوسف و امام محمد حضرتلريدر.<br><b>شيخين؛</b> امام اعظم و امام ابو يوسف حضرتلريدر.<br><b>طرفين؛</b> امام اعظم و امام محمد حضرتلريدر."
-    },
-    // TAMBAHAN PERTANYAAN BARU - TOHARAH
-    {
-        category: "toharah", originalNumber: 136,
-        question: "آبدستسز كيمسه يه حرام اولان شيئلر نلردر؟",
-        answer: "۱- نماز قيلمق،<br>۲- قرآن كريمه غليفسز طوقونمق،<br>۳- كعبه معظمه يى طواف ايتمك."
+        category: "munakahat", originalNumber: 135,
+        question: "محرمات كيملردر و قاچ قسمدر؟",
+        answer: "محرمات، نكاحلانيلماسى دينا حرام اولان قادينلردر. ايكى قسمدر: مؤبدا و موقتا.<br>مؤبدا اوچ قسمدر:<br>۱- نسبا حرام اولانلر: آننهلر، قيزلر، قيز قاردشلر، تيزەلر، خالالر، ايركك قاردشلرك قيزلری، قيز قاردشلرك قيزلری.<br>۲- صهريت/اوليلك سببيله حرام اولانلر: قاين والدهلر، اوى آننهلر، اوى قيزلر، كلينلر.<br>۳- رضاع/اممك سببيله حرام اولانلر: سوت آننهلر، سوت قيزلر، سوت نينهلر، سوت قيز قاردشلر، سوت تيزەلر، سوت خالالر، سوت قيز و اوغلان قاردشلرك قيزلرى.<br>موقتا حرام اولانلر: بر نكاحده جمعى جائز اولميان قادينلر، دورد قادينله اولى اولمق، اوچ طلاقله بوشانيلان قادين (حله مستثنى)، باشقه لرينك نكاحنده كى قادين، غير كتابى اهل شرك."
     },
     {
-        category: "toharah", originalNumber: 137,
-        question: "غسل آلمانك سنت اولديغى يرلر نلردر؟",
-        answer: "۱- جمعه ايچون،<br>۲- رمضان بايرامى ايچون،<br>۳- قربان بايرامى ايچون،<br>۴- عرفاتده وقفه ايچون،<br>۵- احرام ايچون."
+        category: "munakahat", originalNumber: 136,
+        question: "محرم و نامحرم نه ديمكدر؟",
+        answer: "محرم: نكاحى حرام اولان ياقين قادينلردر.<br>نامحرم: نكاحى حرام اولميان/حلال اولان قادينلردر (اقربا اولسونلر اولماسونلر).<br>نامحرملك صينيرى: خالا، تيزه، دايى و عمجهلرك قيزلرندن اعتبارا باشلار. يعنى بونلر ايله اوليلك جائزدر. عمجه و دايينك خانمى اولان ينكهلر ايله، اركك قاردشلرينك خانمى اولان ينكهلر ده اولويتله نامحرمدر. بو نامحرملر ايله \"خلوت اولمق\" حرامدر."
     },
     {
-        category: "toharah", originalNumber: 138,
-        question: "مَذِى و وَدِى ندر؟ غسل ايجاب ايدرمى؟",
-        answer: "<b>مَذى:</b> اويناشمادن طولايى چيقان بياض اينجه صودر.<br><b>وَدى:</b> بولك عقبنده چيقان قالين صارى صودر.<br>ايكيسى ده <b>غسل ايجاب ايتمز</b>. آنجق <b>آبدست ايجاب ايدر</b>."
+        category: "munakahat", originalNumber: 137,
+        question: "خلوت ندر ايضاح ايديكز؟",
+        answer: "خلوت: قادين و ارككك، اذنلرى اولمادن اوچنجى بر كيشينك كنديلرينه مطلع اولماسندن امين اولدقلرى بر يرده يالكز بولونمالرندن عبارتدر.<br>كيشينك آغابكى، عمجهسى، دايى سى ويا مميز چوجوقلرى اوده بولونمادقلرى مدتجه ينكهلرى ايله باش باشه اولارق اوده بولونمالرى جائز اولماز."
     },
     {
-        category: "toharah", originalNumber: 139,
-        question: "جنب اولان كيمسه يه حرام اولان شيلر نلردر؟",
-        answer: "۱- نماز قيلمق،<br>۲- قرآن كريمه طوقونمق و اوقومق،<br>۳- كعبه معظمه يى طواف ايتمك،<br>۴- مسجده كيرمك."
+        category: "munakahat", originalNumber: 138,
+        question: "بر نكاح آلتنده جمعى جائز اولميان كيمسهلر كيملردر؟",
+        answer: "بر نكاحده جمعى جائز اولميانلر: ايكى قيز قاردشى بر نكاحده جمع ايتمك، قاردش اولان ايكى جاريه يى برابر قوللانمق، بر قادينله تيزهسنى، خالاسنى، اركك قاردشينك ويا قيز قاردشينك قيزينى بر آرايه كتيرمك جائز دكلدر."
     },
     {
-        category: "toharah", originalNumber: 140,
-        question: "آقيجى صويه نجاست دوشسه حكم ندر؟",
-        answer: "اگر نجاستك اثرى (رنك، قوقو، تاد) كورولميورسه اورادن آبدست آلمق <b>جائز در</b>."
+        category: "munakahat", originalNumber: 139,
+        question: "اهل كتاب ايله اوليلك جائزميدر؟",
+        answer: "كتاب اهلى اولان خانملرله اولنمك جائزدر. پوت پرست و آتش پرست خانملرله اولنمك جائز دكلدر. اكر بر پيغمبره ايمان و بر كتابى اقرار ايدرلرسه اولهنيلير. اكر ييلديزلره عبادت ايدر و بر كتابى اقرار ايتمز ايسهلر نكاحلانمق جائز دكلدر.<br>مسلمان قادينلرك اهل كتاب ارككلرله اولنمهلرينه ايسه اذن ويريلمهمشدر."
     },
     {
-        category: "toharah", originalNumber: 141,
-        question: "بويوك كوله نجاست دوشسه حكم ندر؟",
-        answer: "ايكى طرفدن بيرينك حركت ايتديريلمه سى ايله ديكر طرف حركت ايتمه ين بويوك كوله نجاست دوشرسه، <b>نجاستك دوشديغى طرفدن غير طرف</b> اوزرينه جائز در."
+        category: "munakahat", originalNumber: 140,
+        question: "ولیسينك اذن اولمادن نكاح اولورمی؟ ولیسى باله اولان باكره يى نكاحه زورلايابيلیر مى؟",
+        answer: "امام اعظم حضرتلرينه كوره حر، عاقل، بالغ ايسه ولینك اذن اولمادن كندى رضاسى ايله جائز اولور. امامينه كوره اولماز.<br>ولیسینك، بالغه اولان بر باكره يى نكاحه زورلاماسى جائز دكلدر.<br>ولیسى، باكره قيزدن اذن ايستهدیكى زمان، صوصارسه ويا كولرسه ويا آغلارسه بو حاللر اذن ويرمك ديمكدر. دول قاديندن اذن ايستهدیكى زمان، سوزله رضاسنى بليرتمسى لازمدر."
     },
     {
-        category: "toharah", originalNumber: 142,
-        question: "هانكى حيوانلر صويه دوشسه صويى نجس ياپماز؟",
-        answer: "۱- سيورى سينك، قارا سينك، آرى و عقرب كيبى <b>آقيجى قان اولمايان حيوانلر</b>.<br>۲- بالق، قوربغه، ينكج كيبى <b>صوده ياشايان حيوانلرك</b> اولمه سى ايله صويى نجس ياپماز."
+        category: "munakahat", originalNumber: 141,
+        question: "نكاح هانكى لفظلرله منعقد اولور؟",
+        answer: "نكاح؛ تزويج، تمليك، هبه و صدقه لفظلرى ايله منعقد اولور. اجاره و اباحه لفظلرى ايله منعقد اولماز."
     },
     {
-        category: "toharah", originalNumber: 143,
-        question: "قويوده حيوان شيشسه و داغيلسه حكم ندر؟",
-        answer: "۱- حيوان ايستر كوچوك ايستر بويوك اولسون، شيشسه ويا داغيلسه <b>قويونك تمامى بوشالتيلر</b>.<br>۲- اگر صو قاينايوب بوشالتمق ممكن اولمازسه <b>٢۰۰ ايله ٣۰۰ قووه</b> آراسى بوشالتيلر."
+        category: "munakahat", originalNumber: 142,
+        question: "مهر ندر؟ حكمى و مقدارى نه در؟",
+        answer: "مهر: قادينك صحيح بر نكاح عقدى ايله آلمايه حق قازانديغى مالدر. بو مال نقد ويا قيمتلى اشيا ويا تجارت مالى اولابيلير.<br>حكمى: فرضدر، فرضيتى قرآن ايله ثابتدر.<br>مقدارى: مهرك اك آزى ۱۰ درهمدر. چوغى ايچون نهايت يوقدر. گونومزده ۱۰ درهم ياقلاشق ۳۰ غرام گوموشدر."
     },
     {
-        category: "toharah", originalNumber: 144,
-        question: "قويويه حيوانك نه زمان دوشديكى بيلينمزسه حكم ندر؟",
-        answer: "۱- حيوان شيشمه مش و داغيلمامش ايسه <b>بر كون بر كيجه لك نماز اعاده</b> ايديلر.<br>۲- شيشمش و داغيلمش ايسه؛ <b>امام اعظمه كوره</b> اوج كون اوج كيجه لك نماز اعاده ايديلر. <b>امامينه كوره</b> ايسه نه زمان دوشديكى بيلينكجه يه قدر اعاده ايديلمز."
+        category: "munakahat", originalNumber: 143,
+        question: "مهر مسمى، مهر مثل، مهر معجل، مهر مؤجل ندر؟",
+        answer: "مهر مسمى: نكاح عقدى اثناسنده طرفلر آراسنده جنسى و مقدارى تثبيت ايديلن مهردر.<br>مهر مثل: نكاح عقدى اثناسنده مهر قونوشولمامش اولورسه، قادينك باباسى طرفندن كنديسينه دنك اولان امثالى قادينك آلديغى مهردر.<br>مهر معجل: نكاح عقدى زامانينده قادينه ادهنيشى اعتبارى ايله تماما ويا قسما پشين اولان مهردر.<br>مهر مؤجل: بوشانمه ويا اولوم زامانينه قدر تحير ايديله بيلن مهردر."
     },
     {
-        category: "toharah", originalNumber: 145,
-        question: "مقيم اولارق مسحه باشلايوب صكره مسافر اولان ويا مسافر اولارق مسحه باشلايوب صكره مقيم اولان كيمسه نك حكمى ندر؟",
-        answer: "۱- مقيم ايكن مسحه باشلايوب بر كون بر كيجه طولمادن مسافر اولسه <b>اوج كون اوج كيجه يه</b> تماملر.<br>۲- مسافر ايكن مسحه باشلايوب صكره بر كون بر كيجه ويا دها فضلا زمان كجمش ايسه <b>مستلرى چيقارير</b>. بر كون بر كيجه ده آز ايسه بر كون بر كيجه يه تماملر."
+        category: "munakahat", originalNumber: 144,
+        question: "نكاح اقسامى ندر؟ نكاح باطل و نكاح فاسد ندر؟",
+        answer: "نكاح حكم اولارق اوچه آيريلير: نكاح منعقد (صحيح)، نكاح باطل، نكاح فاسد.<br>نكاح منعقد: صحت شرطلرينى تماما جامع اولان نكاحدر.<br>نكاح باطل: اوزرينه اصلا نكاح حكملرى ترتب ايتمهين نكاحدر. مثلا: غير مميز و مجنون ايله نكاح، ايجاب و قبول اولمادن ياپيلان نكاح، متعه نكاحى.<br>نكاح فاسد: اول امرده منعقد اولان آما صوكرادن بر مانع ايله بوزولان نكاحدر. مثلا شاهدسز نكاح، بر محرم ايله بيله رك نكاح."
     },
     {
-        category: "toharah", originalNumber: 146,
-        question: "نه لر اوزرينه مسح ياپيلماز؟",
-        answer: "۱- صاريق (سرقع)،<br>۲- طاككه (صوف طاقيه)،<br>۳- په چه (يوز اورتوسى)،<br>۴- الديونلر (قول قاپاقلرى) اوزرينه مسح ياپيلماز."
+        category: "munakahat", originalNumber: 145,
+        question: "بر اركك قاچ خانمله اولنهبيلير؟",
+        answer: "اسلامده تك اوليلك اساسدر. آما دورت قادين ايله ده اولهنيلهبيلير. دورتدن فضله اولنيلمسى ياصاقدر. كوله ايكيدن فضله اولنهمز. حر اولان كيشى، دورت خانمندن بريسينى طلاق باين ايله بوشاسه، اونك عدتى تماملانمادن باشقه بريسى ايله اولنهمز."
     },
     {
-        category: "toharah", originalNumber: 147,
-        question: "استنجاء، استنقاء و استبراء نه ديمكدر؟ نه لر ايله استنجاء يابيلماز؟",
-        answer: "<b>استنجاء:</b> بر كيمسه نك دفع حاجتدن صگره پيسلگك چيقديغى يرى تميزله مه سيدر.<br><b>استنقاء:</b> استنجاء ده مبالغه ياپمقدر؛ اوكجه قورى بر شيله سيلمك، صكره صو ايله ييقامق، صكره قورولامقدر.<br><b>استبراء:</b> اركلكلرك ايدرار ياپدقدن صكره اركلكلك عضوسنده كى آقينتييى تماما كسيپ گيدرمه لريدر.<br><b>شونلر ايله استنجاء يابيلماز:</b> صاغ ال ايله، غدا ماده لرى ايله، كميك ايله، حيوان ترسى ايله، جام ايله، كيرچ ايله."
-    },
-    // TAMBAHAN PERTANYAAN BARU - SHALAT
-    {
-        category: "shalat", originalNumber: 148,
-        question: "كچمش نمازلر خصوصنده اذان وقامت اوقومانك حكمى ندر؟",
-        answer: "كجمش نمازلر ايچون اذان وقامت اوقونر. اگر بردن فضلا نماز كجمش ايسه بيرنجى ايچون اذان وقامت اوقور، ديكرلرنده <b>استرسه اوقور استرسه اوقوماز</b>."
+        category: "munakahat", originalNumber: 146,
+        question: "رضاعك تعريفى ندر؟ مدتى نه قدردر؟",
+        answer: "لغة: ممه اممك، سوت اممك معناسينه در.<br>شرعا: خصوصى وقتده آدمينك كوكسوندن چوجوغك سوت اممهسيدر.<br>رضاع مدتى: امام اعظم حضرتلرينه كوره ۳۰ آى (ايكى بوچوق سنه)، امامينه كوره ايسه ايكى سنهدر. رضاعك آزى و چوغى، امزيرمه مدتنده ميدانه كليرسه مساويدر و حراملق تعلق ايدر.<br>حكمى: امهنك امزيره نه نفسى حرام، امزيره نك امهنه نسلى حرامدر."
     },
     {
-        category: "shalat", originalNumber: 149,
-        question: "اركك، حر قادين و جاريه ايچون عورت محللى ندر؟",
-        answer: "<b>اركك ايچون:</b> گوبك دلگى آلتيندن ديز قپاغينه قدر (ديز قپاغى داخل).<br><b>حر قادين ايچون:</b> يوزى، اللرى و آياقلرى خارج وجودينك تمامى.<br><b>جاريه ايچون:</b> اركگك عورت يرلرينه علاوتن قارنى و صرتيده عورتدر."
+        category: "munakahat", originalNumber: 147,
+        question: "طلاق ندر؟ قاچ قسمدر؟",
+        answer: "لغة: بوشامق، حسى ويا معنوى بر قيددن قورتولمقدر.<br>شرعا: نكاح سببيله شرعا ثابت اولان نكاح باغينى قالديرمقدر. حر قادينك طلاقى اوچدر، جاريه نك ايسه ايكيدر.<br>طلاق، شكلى اعتباريله ۳ قسمدر:<br>۱- احسن طلاق: ارككك خانمنى بر طهر دونمنده بوشاييب اوكا هيچ ياقلاشمادن عدتنى بيتيرمهسيدر.<br>۲- سنت طلاق: ارككك خانمنى هر طهر دونمنده برر طلاق ايله بوشاماسى و بو زمان ايچونده خانمنه ياقلاشمامش اولماسيدر.<br>۳- بدعت طلاق: ارككك خانمنى بر كلمه ايله اوچ طلاق بردن بوشاماسي ويا بر طهر دونمنده اوچ آيرى طلاق ايله بوشامش اولماسيدر. قوجه كناهكار اولور."
     },
     {
-        category: "shalat", originalNumber: 150,
-        question: "قبله يى قاريشديران نه ياپار؟",
-        answer: "اگر بر كيمسه قبله يى بيله مز سه آراشديرير و نمازينى قيلار. نماز قيلدقدن صكره خطا ايتديكينى بيلسه <b>اعاده لازم كلمز</b>. اگر نماز ايچونده بيلسه <b>قبله يه دونر</b>."
+        category: "munakahat", originalNumber: 148,
+        question: "طلاق بالصريح و طلاق بالكنايه ندر؟",
+        answer: "طلاق لفظلر جهتندن ايكى قسمدر:<br>۱- طلاق بالصريح: (ط-ل-ق) حرفلرندن مشتاق، صريح/آچيق لفظلرله ويريلن طلاقدر. (انت طالق، انت مطلقة، طلقتك) كبى. بوكيشينك نيته باقيلماز، بر طلاق رجعى واقع اولور.<br>۲- طلاق بالكناية: اصلا طلاق ايچون وضع اولونمایب هم طلاقه هم ده باشقه معنالرده قوللانيلان لفظلردر. بو لفظلرله طلاقك واقع اولماسى نيته ياخود طلاق مذاكره سى كبى بر شيئه محتاجدر."
     },
     {
-        category: "shalat", originalNumber: 151,
-        question: "نافله ندر؟",
-        answer: "نافله <b>لغتده</b> زياده معناسينه در. <b>شرعا</b> فرض، واجب و سنت اولمايان فعلدن عبارتدر. نافله نمازه باشلايوپ بوزان اونى قضا ايدر."
+        category: "munakahat", originalNumber: 149,
+        question: "طلاق رجعى و طلاق باين ندر؟ حكملرى ندر؟",
+        answer: "طلاق رجعى: زوجك طلاقدن صوكره، قادينك عدتى مدتنجه دونوپ نكاحه دوام ايتمه حقى اولان طلاقدر. عدت ايچه ريسنده زوجه نك رضاسينه باقيلمقسزك يكى بر نكاح عقدنه احتياج اولمادن زوجك رجعتيله نكاح دوام ايدر.<br>طلاق باين: زوجه نك عدتى دوام ايدركن زوجك رجعت حقى اولمايان، رجعت زوجه نك رضاسينه باغلى اولان و تجديد نكاح و مهر ايجاب ايدن طلاقدر.<br>بينونت صغرى: بر ويا ايكى طلاق باين ايله ميدانه كلن طلاقدر. تجديد نكاح و مهرله يكيدن اوله نيله بيلير.<br>بينونت كبرى: بر دفعه ده ويا آيرى آيرى اوچه تمامله نن طلاقدر. حله اولمقسزك تكرار اوله نيله مز."
     },
     {
-        category: "shalat", originalNumber: 152,
-        question: "برنجى قعده ده اوتورمايى اونوتان نه ياپار؟",
-        answer: "اگر <b>قعود حالينه داها يقينسه</b> اوتورور و تشهد اوقور. اگر <b>قيامه داها يقينسه</b> قيامه قالقالر و سهو سجده سى ياپار."
+        category: "munakahat", originalNumber: 150,
+        question: "حله ندر؟",
+        answer: "حله: قوجه سندن اوچ طلاق ايله بوشانمش بولونان قادينك اسكى قوجاسينه تكرار دونمك ايستهمه سيدر. تكرار اولهنه بيلمه سينك شرطى ايسه؛ خانمى باشقه بر كيمسه ايله اولهنيپ اوندن آيريلماسى ويا ايكنجى قوجانك اولمه سيدر.<br>حديث شريفده: 'الله لعن ايتدى محلل اولانى و مَحلَّله (ايچون حلل ايديلنى).'<br>حله نيتيله ياپيلان نكاح حرامدر."
     },
     {
-        category: "shalat", originalNumber: 153,
-        question: "صوك قعده ده اوتورمايى اونوتان نه ياپار؟",
-        answer: "اگر بشنجى ركعته قالقارسه، <b>سجده ايتمه ديكى مدتچه</b> قعوده دونر و سهو سجده سى ياپار.<br>اگر سجده ايله قيدلامش ايسه فرض بوزولر و نافله اولور؛ بشنجى ركعته آلتنجى ركعتى ده علاوه ايتمه سى لازم كلير."
+        category: "munakahat", originalNumber: 151,
+        question: "ايلاء، خلع، ظهار و لعان ندر؟",
+        answer: "ايلاء: قوجهنك نكاحلى قاريسينه دورت آي ويا دها فضله ياقلاشمامق اوزره ياپديغى يميندر. قوجه ايلا مدتنده ياقلاشمازسه بر طلاق باين واقع اولور، ياقلاشيرسه كفارت ويرمه سى لازمدر.<br>خلع: قادينك اوده مهيى قبول ايتديكى بر مال مقابلنده اوليلك عقدينه صوك ويريلمه سيدر. قادين بر طلاق باين ايله بوشانمش اولور.<br>ظهار: ارككك زوجه سينى ويا زوجه سينك بر جزئنى نسبا ويا رضاعا محرمى اولان بيريسينك باقيلماسى حرام اولان بر عضوينه تشبيه ايتمه سيدر. ظهار ياپان اركك كفارت ويرينجه يه قدر خانمينه ياقلاشاماز.<br>لعان: زوج ايله زوجه نك حاكم حضورنده شرعى اصولنه اويغون اولارق دورت دفعه شهادتده بولوندقدن صوكره ارككك لعنت، قادينك غضب اوقويارق آيريلمالريدر."
     },
     {
-        category: "shalat", originalNumber: 154,
-        question: "نمازده ركعتلرك عددنده شبهه ايدن كيمسه نه ياپار؟",
-        answer: "اگر <b>الك دفعه</b> شبهه ايتمش ايسه نمازى تكرار قيلار.<br>اگر چوق شبهه ايدييور سه <b>ظن غالبى</b> اوزره نمازينى بنا ايدر."
+        category: "munakahat", originalNumber: 152,
+        question: "عدت ندر؟ مدتلرى نه قدردر؟",
+        answer: "عدت لغتا: صايمق معناسينه در. شرعا: نكاح ملكينك ازالهسى سببيله قادينك باشقاسى ايله اولهنه بيلمهسى ايچون بكله مهسى لازم كلن مدتدر.<br>عدت مدتلرى:<br>۱- بوشانمش قادين حر اولوپ حيض كورويورسه اوچ حيض مدتى، جاريه ايسه ايكى حيضدر.<br>۲- بوشانمش قادين حيض كورميورسه اوچ آى، جاريه ايسه بر بوچوق آى.<br>۳- بوشانمش قادين حامله ايسه حملينى وضع ايدنجه يه قدر.<br>۴- قوجهسى اولن قادين، دورت آى اون كون، جاريه ايكى آى بش كون بكلر."
     },
     {
-        category: "shalat", originalNumber: 155,
-        question: "محتضره (اولومه يقين اولانه) نه يابيلر؟",
-        answer: "<b>اولمه دن اونجه؛</b> صاغ طرف اوزرينه قبله يه جوريلر. زورلامادن كلمه ى شهادت تلقين ايديلر. آرا آرا دوداغينه پاموق و بنزرى شيلرله صو ايله اصلاتيلر.<br><b>اولدقدن صكره؛</b> جنه سى باغلانر، كوزلرى يومولر، دوز حاله كتيريلر و آياق باش بارمقلرى باغلانر. زينت اشياسى چيقاريلر. ييقانيلاجاغى زمان عورت محللينه ستر بزى قونور، البسه لر چيقاريلر، آبدست آلديريلر، صكره هر يرى ييقانر و كفنله نر."
+        category: "munakahat", originalNumber: 153,
+        question: "نفقه ندر؟ بر كيمسه كيملرك نفقهسى ايله مكلفدر؟",
+        answer: "نفقه: انسانك ياشايابيلمهسى ايچون محتاج اولديغى ييهجك، كييهجك و اَوكى شيلردر.<br>اسلامده عائله رئيسى اولارق قادينك و چوجوقلرك كچيمينى صاغلامق كوره وى ارككه ويريلمشدر. آيريجه آننه، باباء، قاردشلر و ديكر خصيملر باكيمه محتاج دورومه دوشونجه كچيمى صاغلامه يوكوملولكى اونلرى ده قاپسار.<br>اولى قادينك نفقه سى: خانمى اونه تسليم ايتديكى زمان بتون ييهجك، كييهجك و مسكن مصرفلرى قوجهيه عائددر."
     },
     {
-        category: "shalat", originalNumber: 156,
-        question: "جنازه نمازينى قيلديرمايه اك لايق اولانلر كيملردر؟",
-        answer: "۱- اگر حاضرسه <b>سلطان</b> (دولت ياكيسى)،<br>۲- سلطان يوقسه حال حياتنده ايكن آرقهسنده نماز قيلديغى <b>امام</b>،<br>۳- صكره <b>ولى</b> در."
+        category: "munakahat", originalNumber: 154,
+        question: "حضانه ندر؟",
+        answer: "حضانه لغتا: چوجوغى تربيه ايتمك معناسينه در. شرعا: نكاحك بوزولماسندن صوكرا، چوجوغى صلاحيتلى اولان كيمسهنك بليرلى بر ياشه كلنجهيه قدر ياننده حمايه و تربيه ايتمه سيدر.<br>اشلر آيريلديغنده آننه چوجوغك تربيهسينه دها اويغوندر. آننه اولماديغى تقديرده آننهنك آننهسى، باباننك آننهسندن اوله در.<br>اركك چوجوق تك باشينه ييوب ايچوب، البسهسينى كييوب و طهارتينى ياپنجهيه قدر آننهسى ياننده دها اولادر. قيز چوجوق حيض كورونجهيه قدر آننهسى ياننده اولماسى اولادر."
+    },
+    // BAGIAN VIII: UKUBAT / JINAYET (عقوبات)
+    {
+        category: "ukubat", originalNumber: 155,
+        question: "جنايت ندر؟ قتل قاچ قسمدر؟ قتل عمد و شبه عمد ندر و حكملرى ندر؟",
+        answer: "جنايت؛ بر انسان اولدورمك ويا بر عضوينى كسمك، قيرمق معناسينه در.<br>قتل بش قسمدر: قتل عمد، قتل شبه عمد، قتل خطا، خطا مجراسينه اجرا اولونان قتل، قتل بسبب.<br>قتل عمد (قصدا اولدورمك): سلاح و سلاح وظيفهسى كورن پارچالاييجى بر شيله اولدورمك ديمكدر. حكمى: گناهكارلق و قصاصدر. مقتولك وليلرى عفو ايدرسه قصاص دوشر، كفارت يوقدر.<br>قتل شبه عمد: امام اعظم حضرتلرينه كوره سلاح و سلاحك يرينه قائم اولمايان بر شيله ووروپ اولدورمكدر. حكمى: گناهكار اولمق، كفارت و عاقله اوزرينه ديت مغلظه لازم كلمهسيدر. بوندا قصاص يوقدر."
     },
     {
-        category: "shalat", originalNumber: 157,
-        question: "طوغومدن صكره اولن بهبهكه نه يابيلر؟",
-        answer: "۱- اگر طوغدقدن صكره سس چيقارمق كيبى <b>حيات علامتى</b> اولسه؛ اسم ويريلر، ييقانر و جنازه نمازى قيلينر.<br>۲- اگر <b>حيات علامتى اولمازسه</b>؛ بر بز ايجينه دورولر، جنازه نمازى قيلينمادن دفن ايديلر."
-    },
-    // TAMBAHAN PERTANYAAN BARU - ZAKAT
-    {
-        category: "zakat", originalNumber: 158,
-        question: "نرلرده زكات يوقدر؟",
-        answer: "۱- اوتورديغى <b>اولرده</b>،<br>۲- كييديكى <b>البسه لرده</b>،<br>۳- او <b>اشياسنده</b>،<br>۴- بينديكى <b>حيوانلرده</b>،<br>۵- <b>خدمت جيسنده</b>،<br>۶- قوللانديغى <b>سلاحده</b> زكات يوقدر."
+        category: "ukubat", originalNumber: 156,
+        question: "قتل خطا و خطا مجراسينه اجرا اولونان قتل ندر؟ سبب ايله قتل ندر؟",
+        answer: "قتل خطا ياكليشلقله اولدورمك ايكى شكلده اولور:<br>۱- قصدده خطا: بر انسان آو ظن ايدهرك آتيپ اولدوردقدن صوكره انسان اولديغينى كورمك كبى.<br>۲- فعلده خطا: اوقو هدفينه آتديغى حالده بر انسانه اصابت ايتمهسى كبى.<br>حكمى: كفارت و عاقله اوزرينه ديتك لازم اولماسيدر. بوراده گناه يوقدر.<br>خطا مجراسينه اجرا اولونان قتل: اويويان بر كيمسهنك باشقه بريسينك اوزرينه دوشوپ اولدورمهسى كبى. حكمى: كفارت و عاقله اوزرينه ديتك لازم اولماسيدر.<br>سبب ايله قتل: ملكنده دكلده باشقه بر يرده قويو قازان ويا طاش ديكن بر كيمسهنك حركتى كبى. حكمى: ياقينلرينه ديتك ترتب ايتمهسيدر، كفارت يوقدر."
     },
     {
-        category: "zakat", originalNumber: 159,
-        question: "زكاتده ماللرك قيمتنى ويرمك جائز ميدر؟",
-        answer: "اوت، <b>جائز در</b>. زكات مالنك عينينى ويرمك واجب دكلدر، قيمتنى ويرمك ده جائز در."
+        category: "ukubat", originalNumber: 157,
+        question: "قتل كفارتى ندر؟ ديت ندر و نه قدردر؟",
+        answer: "قتل كفارتى (خطا و شبه عمدده): مومن بر كوله يى آزاد ايتمكدر. او اولمادیغى تقديرده آرقه آرقهيه ايكى آى اوروچ طوتمقدر، التمش فقيره ييديرمك يوقدر.<br>ديت: اولدورمه ياده يارالامه كبى ايشله نن بر جنايت سببيله مغدوره ياده وارثلرينه جان بدلى اولارق ويريلن مالدر.<br>ديت مغلظه: قتل شبه عمد ايله اولدورمه ده ايجاب ايدر كه يوز دوه ويرمكدر.<br>نورمال ديت: قتل خطا ايله اولدورمه ده ايجاب ايدر كه امام اعظم حضرتلرينه كوره يوز دوه، التوندن ايسه بيك دينار، گوموشدن اون بيك درهمدر."
     },
     {
-        category: "zakat", originalNumber: 160,
-        question: "زكات اولارق ويريله جك مال ناصل اولمالى لازم؟",
-        answer: "اك اييسنى و اك كوتوسنى آلماز، <b>اورطه حاللى</b> اولان آلر."
+        category: "ukubat", originalNumber: 158,
+        question: "ارش ندر؟ شجه ندر و قاچ قسمدر؟",
+        answer: "ارش لغة: بدل، تضمينات. شرعا: قتلك غيرى اعضالردهكى جنايتلرده مغدوره اودهنن ديتدر.<br>شجه، باشده و يوزده ميدانه كلن يارالر ديمك اولوپ اون قسمدر:<br>۱- حارصه {يالگز ده رى ييرتيلمش}<br>۲- دامعه {گوز ياشى قدر قان چيقمش}<br>۳- داميه {گوز ياشى قدر قان چيقيپ سيلان}<br>۴- باضعه {ده رى ايله برابر برازده ات كسيلمش}<br>۵- متلاحمه {ده رى ايله برابر آپيجه ات كسيلمش}<br>۶- سمحاق {ات ايله كميك آراسنده كى اينجه زار كبى ده رى كورنمه باشلامش}<br>۷- موضحه {كميك ميدانه چيقمش - قصدا ايسه قصاص، خطا ايسه ييرميده بر}<br>۸- هاشمه {كميك قيريلمش - ييرميده ايكى}<br>۹- منقله {كميك قيريليپ ييريندن اوينامش - ييرميده اوچ}<br>۱۰- آمه {دماغه اولاشان يارا - ديت كاملهنك اوجده برى}"
     },
     {
-        category: "zakat", originalNumber: 161,
-        question: "زكات فرض اولدقدن صكره مال هلاك اولسه دوروم ندر؟",
-        answer: "زكات <b>دوشر</b> (ساقط اولر). چونكه مالك كلمهسى ايله فرض اولان زكات مالك يوق اولمه سيله دوشر."
+        category: "ukubat", originalNumber: 159,
+        question: "حد ندر؟ زنانك حكمى ندر و نه ايله ثابت اولور؟ حد زنا ندر؟",
+        answer: "حدود، حدك جمعيدر. شرعا: اللهك حقى اولارق، امام اوزرينه يرينه كتيرمهسى واجب اولان، تقدير اولونمش جزالردر.<br>زنانك حكمى: حرامدر. زنا دليل و اقرار ايله ثابت اولور. دليل ايله: دورت اركك بر اركك و قادين اوزرينه زنا ايتدكلرينه شاهدلك ياپديغى زمان ثابت اولور. اقرار ايله: بالغ و عقللى بر كيمسهنك دورت مجلسده دورت دفعه زنا ايتديكنى اقرار ايتمهسيدر.<br>حد زنا: زنا ياپانلر محصن و محصنه ايسه رجم ايله اولدورولور. باكار ايسه يوز صوپه وورولور.<br>محصن و محصنه: مسلمان، حر، عقللى و بالغ اولوپ باشندن صحيح بر نكاح كچمش اولان اركك و قادين."
     },
     {
-        category: "zakat", originalNumber: 162,
-        question: "نصابه مالك اولديغى حالده بر سنه طولمادن كله جك سنه نك زكاتندن ويرمك جائز ميدر؟",
-        answer: "اوت، <b>جائز در</b>. يعنى تعجيلن زكات ويرمك جائز در."
+        category: "ukubat", originalNumber: 160,
+        question: "حد شرب ندر؟ جزاسى ندر؟",
+        answer: "حد شرب ايكى قسمدر:<br>۱- شراب ايجمك: بوندا بر داملا بيله ايجسه كافيدر. سرخوش اولما شرطى آرانماز.<br>۲- شرابك خارجنده حرام اولان مسكراتى ايجمك: بوندا سرخوش اولما شرطى آرانر.<br>حد شربك ثابت اولماسى: شرابى ايچركن طوتوقلانان بر كيمسه ده قوقوسى موجود اولورسه، ايچديكينه دائر شاهدلر شهادت ايدرسه ويا ايچديكينى اقرار ايدرسه ثابت اولور.<br>جزاسى: حر ايسه ۸۰ صوپه، كوله ايسه ۴۰ صوپه.<br>سرخوش اولمانك علامت: امامينه كوره قونوشوركن كلمه لرى قاريشديران، امام اعظمه كوره قادين ايله ارككى - ارض ايله سماءيى تفريق ايده مهين كيمسه."
+    },
+    {
+        category: "ukubat", originalNumber: 161,
+        question: "قذف ندر؟ حد قذف ندر؟ تعزير ندر؟",
+        answer: "قذف لغتا: آتمق معناسينه در. شرعا: عفتلى و ناموسلى بريسينه زنا افتراسنده بولونمق ديمكدر.<br>اصطلاحلر: قاذف: زنا افتراسى آتان. مقذوف: زنا افتراسينه اوغرايان.<br>حد قذف: محصن و محصنه اولان اركك و قادينه آچيقجه زنا افتراسنده بولونديغى و افترايه اوغرايان حدى طلب ايتديكى زمان حاكم حد تطبيق ايدر.<br>جزاسى: حر ايسه ۸۰ صوپه، كوله ايسه ۴۰ صوبه.<br>تعزير: حققنده معين بر جزا اولمايان صوجلردن طولايى تطبيق ايديلن جزادر. مقدارى: اك چوغى ۳۹ صوپه، اك آزى اوچ صوپه."
+    },
+    {
+        category: "ukubat", originalNumber: 162,
+        question: "سرقت ندر؟ حد سرقت ندر؟",
+        answer: "سرقت لغتا: صاحبنك اذن اولمادن بر شيئ كزليجه آلمقدر.<br>سرقت شرعا: مكلفك، كيزليجه اون درهم دكريندهكى بر شيئى آلماسيدر.<br>حد سرقتك ثابت اولماسى: ايكى شاهدك شهادتى ويا كنديسينك اقرارى ايله ثابت اولر.<br>حد سرقت: حدك تطبيقى، خيرسزك صاغ الى بيلكدن كسيلير و قايناق ياغى ايله قاپاتيلير. ايكنجى دفعه خيرسزلق ياپارسه صول آياغى كسيلير. اوچوجنى كز تكرار ياپارسه امام اون توبه ايدنجه يه قدر حبسه آتار."
+    },
+    {
+        category: "ukubat", originalNumber: 163,
+        question: "حرام اولان ايچكيلر نهلردر؟",
+        answer: "حرام اولان ايچكيلر دورتدر:<br>۱- شراب: پيشيريلمه دن قاينایوپ كسكينله شن و كوپوكون آتان اوزوم صوييدر.<br>۲- اوچده ايكيسندن آزى گيدينجه يه قدر قايناتيلان اوزوم صوييدر.<br>۳- قورى خورما نقيعى (شيراسى).<br>۴- قورى اوزوم نقيعى (بو ايكيسى شددتلنديكى زمان حرام اولور)."
+    },
+    {
+        category: "ukubat", originalNumber: 164,
+        question: "صيد و ذبايح ندر؟ بوغازلامهده كسيلن طامارلر نهلردر؟",
+        answer: "صيد: آو ديمكدر. اكيتيملى كلب، پارس و شاهين كبى قوشلر ايله آولانمق جائزدر.<br>ذبايح: كسيلمهسى جائز اولان حيوانلر ديمكدر.<br>بوغازلامهده كسيلن طامارلر دورتدر:<br>۱- حلقوم (نفس بوروسى)<br>۲- مرى (يهمك و ايچمك بوروسى)<br>۳ و ۴- بوغازك ايكى طرفنده كى قان بورولرى (ودج).<br>بتون بو طامارلر كسيلديكنده يينمهسى حلال اولور. امام اعظم حضرتلرينه كوره چوغون (يعنى اوچنى) كسرسه ينه يينير. اكر قربان كسن بسمه له يى قصدا ترك ايدرسه كسديكى حيوان مرداردر، اتى ينمز."
+    },
+    {
+        category: "ukubat", originalNumber: 165,
+        question: "اضحيه و حكمى ندر؟ قربان وقتى ندر؟",
+        answer: "اضحيه: خصوصى وقتده حضرت اللهه ياقينلق نيتيله خصوصى حيوان كسمكدر. مسلمان، حر، بالغ، هر زنكين و مقيم اولان كيمسه يه، كنديسى و كوچوك چوجوقلرى ايچون قربان بايرامنده قربان كسمك واجبدر. دوه، صيغير (يدى كيشى كسه بيلير) و طاواردن اولور.<br>قربان وقتى: بايرام گوننك فجرى ايله باشلار، آنجاق امام بايرام نمازينى قيلديرمادقجه شهرليلره قربان كسيلمهسى جائز دكلدر. قربان اوچ كوندر (بايرامك برنجى، ايكنجى، اوچنجى كونى). برنجى كون افضلدر."
+    },
+    {
+        category: "ukubat", originalNumber: 166,
+        question: "يمين ندر؟ قاچ قسمدر؟ يمين كفارتى ندر؟",
+        answer: "يمين: يمين ايدهنك ياپمهيه ويا ياپمهميه كنديسيله عزم ايتديكى قوتلى بر عقددن عبارتدر. اوچ قسمدر:<br>۱- يمين غموس: كچمش بر ايش ايچون بيله بيله يالانله يمين ايتمكدر. كناهكار اولور، استغفارك باشقه كفارت يوقدر.<br>۲- يمين منعقده: كله جك بر امرى ياپيپ ويا ياپمايا جاغينه دائر ياپديغى يميندر. بو يمينى يرينه كتيرمزسه كفارت ويرمهسى لازم كلير.<br>۳- يمين لغو: كچمش زماندا اولان بر شيئه طوغرى اولديغينى ظن ايدهرك ايتديكى يمينله، حقيقت بونك خلافنهدر. حضرت اللهك بو يمين سببيله صاحبنى مواخذه ايتمهيهجكنى اميد ايديريز.<br>يمين كفارتى: ۱- كوله آزاد ايتمك، ۲- اون مسكينى كيدير مك ويا طويورمق، ۳- پش پشه اوچ كون اوروچ طوتمق."
+    },
+    {
+        category: "ukubat", originalNumber: 167,
+        question: "شهادت ندر؟ شهادت قاچ مرتبه اوزرينه در؟",
+        answer: "شهادت: كسين اولارق، ظن و تحمين اولمقسزك بر كيمسه نك بر باشقه سينده اولان حقنى خبر ويرمكدر.<br>شهادتلر دورت مرتبه اوزرينه در:<br>۱- زنا حققنده شاهدلك: آنجاق دورت اركك معتبردر. قادينلرك شاهدلكى مقبول دكلدر.<br>۲- حد و قصاص ديشنده كى مسئلهلرده كى شاهدلك: ايكى كيشينك شاهدلكى قبول اولونور. قادينلرك قبول اولونماز.<br>۳- بونلردن باشقه حقلرده: ايكى اركك ويا بر اركك ايكى قادينك شاهدلكى قبول اولونور.<br>۴- طوغوم، باكره لك و ارككلرك مطلع اولماسى ممكن اولمايان يرلرده: تك بر خانمك شاهدلكى قبول اولونور."
+    },
+    {
+        category: "ukubat", originalNumber: 168,
+        question: "قسامه ندر؟ مرتد كيمدر؟ جهاد ندر؟",
+        answer: "قسامه: قاتلى مجهول اولان و اوزرنده قتل اثرى بولونان بر مقتولك بولونديغى محل آهاليسندن اللى كيشيه اون اولدورمه دكلرينه دائر يمين ايتديريلمهسيدر. يمين ايتدكدن صوكره او محله ساكينلرينه ديتى يوكله نير.<br>مرتد: مسلمان ايكن ديندن چيقان، كافر اولان كيمسه در. بر مسلمان اسلامدن دونديكى زمان كنديسينه اسلامك حقيقتى آكلاتيلير، شبههسى وارسه ازاله ايديلير و اوچ كون حبسه آتيلير. مسلمان اولورسه بيراقيلير، كفرنده اصرار ايدرسه اولدورولور. قادين مرتد اولورسه اولدورولمز، مسلمان اولونجه يه قدر حبس اولونور.<br>جهاد: مسلمان، حر، بلوغ چاغينه ارمش ارككلره فرض كفايه در."
+    },
+    {
+        category: "ukubat", originalNumber: 169,
+        question: "وصيت و حكمى ندر؟ حظر و اباحه ندر؟",
+        answer: "وصيت: بر كيمسهنك اولومندن صوكرهيه مضاف قيلارق مالينى باشقهسينه تبرع و تمليك ايتمه سيدر. وصيت ياپمق واجب دكل مستحبدر. تركه نك اوچده برندن فضله سيله وصيت ياپمق جائز دكلدر.<br>حظر: شرعا استعمالندن منع اولونان شيدر.<br>اباحه: حلال قيلمق، مباح قيلمق، سربست بيراقمق، حظرك ضديدر.<br>مباح: ثواب ويا عقابه مستحق اولمقسزك مكللفلرك ايشله مهسينه و ترك ايتمهسينه اجازت ويريلن شيدر.<br>نوط: ييپك كييمك ارككلره حرام، قادينلره حلالدر. آلتون و گوموش قاپلردن ييمك ايچمك جائز دكلدر."
     }
-
 ],
         // Sisa soal Osmanlica akan ada di bagian berikutnya
         
@@ -1498,156 +1530,188 @@ const allQuestionsData = {
         question: "Apa itu Hadyu?",
         answer: "Hadyu adalah hewan kurban yang disembelih di Tanah Haram untuk mendekatkan diri kepada Allah. Hewan kurban ini bisa berupa unta, sapi, atau kambing. Untuk sah dikurbankan, unta harus berumur lima tahun, sapi dua tahun, dan kambing satu tahun. Namun, domba berumur enam bulan sudah cukup. Batas usia hewan yang dicari ini disebut \"tsaniyah\" (yaitu umur 2 tahun)."
     },
-    // TAMBAHAN PERTANYAAN BARU - MUKADDIMAH
+    // BAGIAN VII: MUNAKAHAT (مناكحات)
     {
-        category: "mukaddimah", originalNumber: 134,
-        question: "Siapa saja silsilah fiqih Hanafi?",
-        answer: "Imam A'zam ← Hammad ← Ibrahim an-Nakha'i ← Alqamah ← Abdullah bin Mas'ud r.a. ← Nabi Muhammad SAW ← Jibril AS ← Allah Ta'ala."
+        category: "munakahat", originalNumber: 134,
+        question: "Apa definisi nikah? Apa rukun, syarat, hukum, dan sifatnya? Apakah sah nikah tanpa saksi?",
+        answer: "Secara bahasa: berarti berkumpul dan menyatukan.<br>Secara syariat: Akad yang dilakukan dengan ijab dan kabul yang bertujuan memberikan kepemilikan hak bersenang-senang.<br>Rukun nikah: Ijab dan kabul.<br>Syarat-syaratnya: 1) Kehadiran suami-istri dalam satu majelis, 2) Hadirnya saksi yang mendengar ijab dan kabul, 3) Nikah bersifat permanen, 4) Bebas dari penghalang syar'i.<br>Hukumnya: Menjadi halal saling menikmati, mahar/nafkah/pakaian wajib atas suami, istri wajib taat kepada suami, dan saling mewarisi.<br>Sifatnya: Jika dorongan syahwat sangat kuat dan pasti akan berzina → fardu; tidak pasti → wajib; dalam keadaan normal → sunah; jika ada kemungkinan zalim → makruh; jika pasti zalim → haram.<br>Nikah tanpa saksi tidak sah. Akad dilakukan dengan kesaksian dua laki-laki atau satu laki-laki dan dua perempuan."
     },
     {
-        category: "mukaddimah", originalNumber: 135,
-        question: "Siapa yang disebut Imam, Imamain, Tarafeyn, dan Şeyheyn dalam fiqih Hanafi?",
-        answer: "<b>Imam:</b> Imam A'zam Abu Hanifah.<br><b>Imamain:</b> Imam Abu Yusuf dan Imam Muhammad.<br><b>Şeyheyn:</b> Imam A'zam dan Imam Abu Yusuf.<br><b>Tarafeyn:</b> Imam A'zam dan Imam Muhammad."
-    },
-    // TAMBAHAN PERTANYAAN BARU - TOHARAH
-    {
-        category: "toharah", originalNumber: 136,
-        question: "Apa saja yang haram bagi orang yang tidak berwudu?",
-        answer: "1. Mengerjakan shalat.<br>2. Menyentuh Al-Qur'an tanpa pelindung/sarung.<br>3. Tawaf di Ka'bah Muazzamah."
+        category: "munakahat", originalNumber: 135,
+        question: "Siapa saja Muharramat dan ada berapa jenisnya?",
+        answer: "Muharramat adalah wanita-wanita yang haram dinikahi. Ada dua jenis: yang haram selamanya (mu'abbadan) dan yang haram sementara (muwaqqatan).<br>Mu'abbadan ada tiga bagian:<br>1. Haram karena nasab (keturunan): ibu, anak perempuan, saudara perempuan, bibi (saudara ayah), bibi (saudara ibu), anak perempuan saudara laki-laki, anak perempuan saudara perempuan.<br>2. Haram karena mushaharah (pernikahan): mertua perempuan, ibu tiri, anak tiri (jika sudah digauli ibunya), menantu perempuan.<br>3. Haram karena radha' (persusuan): ibu susu, saudara perempuan sepersusuan, nenek susu, bibi sepersusuan, anak perempuan saudara sepersusuan.<br>Muwaqqatan: wanita yang tidak boleh dikumpulkan dalam satu pernikahan, wanita yang menjadi istri orang lain, wanita musyrik bukan ahli kitab, wanita yang ditalak tiga (sebelum halalan)."
     },
     {
-        category: "toharah", originalNumber: 137,
-        question: "Di mana saja mandi (ghusl) itu merupakan sunah?",
-        answer: "1. Untuk shalat Jumat.<br>2. Untuk Idul Fitri.<br>3. Untuk Idul Adha.<br>4. Untuk wukuf di Arafah.<br>5. Untuk ihram."
+        category: "munakahat", originalNumber: 136,
+        question: "Apa itu Mahram dan Na-Mahram?",
+        answer: "Mahram: wanita dekat yang haram dinikahi.<br>Na-Mahram: wanita yang tidak haram (halal) dinikahi, baik kerabat maupun bukan kerabat.<br>Batas mahram dimulai dari sepupu (anak bibi dan paman). Artinya, menikahi mereka adalah halal. Istri paman (bibi ipar) dan istri saudara laki-laki (kakak/adik ipar) termasuk na-mahram secara prioritas. Oleh karena itu, berkhalwat (berduaan) dengan na-mahram adalah haram."
     },
     {
-        category: "toharah", originalNumber: 138,
-        question: "Apa itu madzi dan wadi? Apakah mewajibkan mandi?",
-        answer: "<b>Madzi:</b> Cairan putih encer yang keluar karena rangsangan/cumbu rayu.<br><b>Wadi:</b> Cairan kuning kental yang keluar setelah buang air kecil.<br>Keduanya <b>tidak mewajibkan mandi</b>, tetapi mewajibkan wudu."
+        category: "munakahat", originalNumber: 137,
+        question: "Apa itu Khalwat? Jelaskan!",
+        answer: "Khalwat adalah keberadaan seorang laki-laki dan perempuan berdua saja di suatu tempat di mana mereka merasa aman dari kemungkinan diketahui oleh orang ketiga tanpa izin mereka.<br>Tidak diperbolehkan bagi seseorang untuk berduaan dengan iparnya (istri saudara atau saudara iparnya) di rumah selama kakak/adik, paman, atau anak-anak yang sudah mumayiz tidak ada di rumah."
     },
     {
-        category: "toharah", originalNumber: 139,
-        question: "Apa saja yang haram bagi orang yang junub?",
-        answer: "1. Mengerjakan shalat.<br>2. Menyentuh dan membaca Al-Qur'an.<br>3. Tawaf di Ka'bah Muazzamah.<br>4. Masuk masjid."
+        category: "munakahat", originalNumber: 138,
+        question: "Siapa saja yang tidak boleh dikumpulkan dalam satu pernikahan?",
+        answer: "Yang tidak boleh dikumpulkan dalam satu pernikahan: Tidak boleh mengumpulkan dua saudara perempuan kandung dalam satu pernikahan, menggunakan dua budak perempuan yang bersaudara secara bersamaan, serta mengumpulkan seorang wanita dengan bibinya (saudara ayah), bibinya (saudara ibu), anak perempuan saudara laki-lakinya, atau anak perempuan saudara perempuannya."
     },
     {
-        category: "toharah", originalNumber: 140,
-        question: "Bagaimana hukumnya jika ada najis yang jatuh ke dalam air yang mengalir?",
-        answer: "Jika tidak ada tanda-tanda najis (perubahan warna, bau, atau rasa) yang terlihat, maka boleh berwudu dengan air tersebut."
+        category: "munakahat", originalNumber: 139,
+        question: "Apakah sah menikahi Ahli Kitab?",
+        answer: "Menikahi wanita Ahli Kitab adalah sah. Menikahi wanita penyembah berhala dan penyembah api tidak diperbolehkan. Jika mereka beriman kepada seorang nabi dan mengakui sebuah kitab, maka boleh dinikahi. Namun, jika mereka menyembah bintang dan tidak mengakui kitab, tidak boleh menikahi mereka.<br>Adapun wanita Muslimah, mereka tidak diizinkan untuk menikah dengan laki-laki non-Muslim meskipun Ahli Kitab."
     },
     {
-        category: "toharah", originalNumber: 141,
-        question: "Bagaimana hukumnya jika ada najis yang jatuh ke dalam kolam (danau) besar?",
-        answer: "Kolam besar yang jika salah satu sisinya digerakkan, sisi lainnya tidak ikut bergerak, jika najis jatuh ke dalamnya maka boleh berwudu dari sisi yang tidak terkena najis."
+        category: "munakahat", originalNumber: 140,
+        question: "Apakah sah nikah tanpa izin wali? Bolehkah wali memaksa perawan yang sudah baligh untuk menikah?",
+        answer: "Menurut Imam A'zam: jika wanita merdeka, berakal, dan baligh, maka nikahnya sah dengan keridhaan sendiri tanpa izin wali. Menurut kedua Imam (Abu Yusuf dan Muhammad): tidak sah.<br>Tidak diperbolehkan bagi wali untuk memaksa perawan yang sudah baligh untuk menikah.<br>Ketika wali meminta izin kepada gadis perawan, jika ia diam, tertawa, atau menangis, maka itu dianggap sebagai izin. Jika ia tidak memberi izin, wali tidak boleh menikahkannya. Untuk janda, ia harus mengungkapkan keridhaan secara lisan."
     },
     {
-        category: "toharah", originalNumber: 142,
-        question: "Hewan apa saja yang jika mati di dalam air tidak membuat air menjadi najis?",
-        answer: "1. Hewan yang tidak memiliki darah mengalir, seperti nyamuk, lalat, lebah, dan kalajengking.<br>2. Hewan yang hidup di air seperti ikan, katak, dan kepiting — jika mati di dalam air tidak membuat air menjadi najis."
+        category: "munakahat", originalNumber: 141,
+        question: "Dengan lafaz apa saja nikah dapat terlaksana?",
+        answer: "Nikah dapat terlaksana dengan lafaz: tazwij (menikahkan), tamlik (memiliki), hibah, dan shadaqah. Nikah tidak dapat terlaksana dengan lafaz ijarah (sewa) dan ibahah (membolehkan)."
     },
     {
-        category: "toharah", originalNumber: 143,
-        question: "Bagaimana hukumnya jika hewan membusuk dan hancur di dalam sumur?",
-        answer: "1. Baik hewan besar maupun kecil, jika membusuk dan hancur di dalam sumur, <b>seluruh air sumur harus dikuras</b>.<br>2. Jika air sumur mendidih sehingga tidak mungkin dikuras, maka dikeluarkan antara 200 hingga 300 ember."
+        category: "munakahat", originalNumber: 142,
+        question: "Apa itu Mahar? Apa hukum dan kadarnya?",
+        answer: "Mahar: harta yang berhak diperoleh wanita melalui akad nikah yang sah. Harta ini bisa berupa uang tunai, barang berharga, atau harta perniagaan.<br>Hukumnya: Fardu (wajib), kewajiban mahar ditetapkan dalam Al-Qur'an.<br>Kadarnya: Minimal 10 dirham. Tidak ada batasan maksimalnya. Di masa kini, 10 dirham setara kurang lebih 30 gram perak."
     },
     {
-        category: "toharah", originalNumber: 144,
-        question: "Bagaimana hukumnya jika tidak diketahui kapan hewan mati di dalam sumur?",
-        answer: "1. Jika hewan belum membusuk dan hancur, maka shalat <b>satu hari satu malam</b> harus diulangi.<br>2. Jika hewan sudah membusuk dan hancur: Menurut Imam A'zam, shalat <b>tiga hari tiga malam</b> harus diulangi. Menurut kedua Imam, tidak perlu diulangi hingga diketahui kapan hewan itu jatuh."
+        category: "munakahat", originalNumber: 143,
+        question: "Apa itu Mahar Musamma, Mahar Mitsl, Mahar Muajjal, dan Mahar Muajjal?",
+        answer: "Mahar Musamma: Mahar yang ditetapkan jenis dan jumlahnya oleh kedua belah pihak saat akad nikah berlangsung.<br>Mahar Mitsl: Mahar yang ditentukan berdasarkan mahar yang diterima oleh wanita-wanita yang setara dengannya dari pihak ayah (seperti saudara perempuan, bibi dari pihak ibu), jika mahar tidak disebutkan saat akad.<br>Mahar Muajjal: Mahar yang dibayarkan segera, baik seluruhnya maupun sebagian, pada saat akad nikah.<br>Mahar Muajjal: Mahar yang ditangguhkan pembayarannya hingga waktu cerai atau kematian."
     },
     {
-        category: "toharah", originalNumber: 145,
-        question: "Bagaimana hukum orang yang memulai mengusap khuff saat mukim lalu menjadi musafir, atau sebaliknya?",
-        answer: "1. Jika memulai saat mukim dan belum genap satu hari satu malam lalu menjadi musafir, ia mengusap hingga genap <b>tiga hari tiga malam</b>.<br>2. Jika memulai saat musafir lalu menjadi mukim setelah genap satu hari satu malam atau lebih, ia harus <b>melepas khuff-nya</b>. Jika belum genap satu hari satu malam, ia mengusap hingga genap satu hari satu malam."
+        category: "munakahat", originalNumber: 144,
+        question: "Ada berapa jenis nikah? Apa itu nikah bathil dan nikah fasid?",
+        answer: "Nikah dari segi keabsahannya terbagi menjadi tiga: nikah mun'aqid (sah), nikah bathil, dan nikah fasid.<br>Nikah mun'aqid: Nikah yang memenuhi semua syarat keabsahan.<br>Nikah bathil: Nikah yang sama sekali tidak menghasilkan hukum nikah. Contoh: menikahi wanita gila atau tidak mumayiz, nikah tanpa ijab-kabul, nikah muta'ah.<br>Nikah fasid: Nikah yang pada awalnya terlaksana tetapi kemudian rusak karena adanya penghalang. Contoh: nikah tanpa saksi, menikahi mahram dengan mengetahui statusnya."
     },
     {
-        category: "toharah", originalNumber: 146,
-        question: "Apa saja yang tidak boleh diusap (dalam wudu)?",
-        answer: "1. Surban (penutup kepala),<br>2. Kopiah (peci),<br>3. Cadar (penutup wajah),<br>4. Sarung tangan.<br>Semua itu tidak boleh diusap dalam wudu."
+        category: "munakahat", originalNumber: 145,
+        question: "Berapa banyak istri yang boleh dinikahi seorang laki-laki?",
+        answer: "Dalam Islam, monogami adalah asasnya. Namun, boleh menikahi hingga empat wanita. Menikahi lebih dari empat dilarang. Budak laki-laki tidak boleh menikahi lebih dari dua. Jika seorang laki-laki merdeka menceraikan salah satu dari empat istrinya dengan talak bain, ia tidak boleh menikahi wanita lain sebelum masa idah wanita tersebut selesai."
     },
     {
-        category: "toharah", originalNumber: 147,
-        question: "Apa itu istinja, istinqa, dan istibra? Dengan apa saja istinja tidak boleh dilakukan?",
-        answer: "<b>Istinja:</b> Membersihkan tempat keluarnya kotoran setelah buang hajat.<br><b>Istinqa:</b> Melakukan istinja secara sempurna, yaitu pertama menyeka dengan benda kering yang bersih, lalu membasuh dengan air, kemudian mengeringkan.<br><b>Istibra:</b> Upaya kaum laki-laki untuk memastikan tidak ada sisa air kencing yang tertinggal setelah buang air kecil.<br><b>Yang tidak boleh digunakan untuk istinja:</b> tangan kanan, bahan makanan, tulang, kotoran hewan, kaca, dan kapur."
-    },
-    // TAMBAHAN PERTANYAAN BARU - SHALAT
-    {
-        category: "shalat", originalNumber: 148,
-        question: "Bagaimana hukum mengumandangkan azan dan ikamah untuk shalat yang terlewat (qada)?",
-        answer: "Untuk shalat yang terlewat, dikumandangkan azan dan ikamah. Jika lebih dari satu shalat yang terlewat, azan dan ikamah dikumandangkan untuk yang pertama; untuk selebihnya, <b>boleh dikumandangkan, boleh juga tidak</b>."
+        category: "munakahat", originalNumber: 146,
+        question: "Apa definisi Radha' (persusuan)? Berapa lama masa persusuan?",
+        answer: "Secara bahasa: menyusu, menghisap susu.<br>Secara syariat: Seorang bayi menghisap susu dari payudara seorang wanita pada waktu tertentu yang telah ditentukan.<br>Masa radha': Menurut Imam A'zam, 30 bulan (dua setengah tahun); menurut kedua Imam, dua tahun. Sedikit atau banyaknya persusuan dalam masa itu sama, dan menghasilkan keharaman.<br>Hukumnya: Yang menyusui menjadi haram bagi dirinya (si bayi), dan keturunan yang menyusui menjadi haram bagi si bayi."
     },
     {
-        category: "shalat", originalNumber: 149,
-        question: "Apa batasan aurat bagi laki-laki, wanita merdeka, dan budak perempuan?",
-        answer: "<b>Laki-laki:</b> Dari bawah pusar hingga lutut (lutut termasuk aurat).<br><b>Wanita merdeka:</b> Seluruh tubuh kecuali wajah, kedua tangan, dan kedua kaki.<br><b>Budak perempuan:</b> Selain aurat laki-laki, juga termasuk perut dan punggungnya."
+        category: "munakahat", originalNumber: 147,
+        question: "Apa itu talak? Ada berapa jenis talak?",
+        answer: "Secara bahasa: melepaskan, membebaskan diri dari ikatan.<br>Secara syariat: Melepaskan ikatan pernikahan yang telah ditetapkan secara syar'i. Talak wanita merdeka adalah tiga, sedangkan budak perempuan adalah dua.<br>Talak dari segi bentuknya ada 3 jenis:<br>1. Talak Ahsan: Suami menceraikan istrinya dalam satu masa suci dan membiarkan idahnya selesai tanpa mendekatinya.<br>2. Talak Sunah: Suami menceraikan istrinya satu talak di setiap masa suci dan tidak mendekatinya selama itu.<br>3. Talak Bid'ah: Suami menceraikan istrinya tiga talak sekaligus atau tiga talak terpisah dalam satu masa suci. Suami berdosa."
     },
     {
-        category: "shalat", originalNumber: 150,
-        question: "Apa yang harus dilakukan orang yang tidak tahu arah kiblat?",
-        answer: "Ia berusaha mencari tahu lalu shalat mengikuti perkiraannya. Jika setelah shalat diketahui arahnya salah, <b>tidak perlu mengulangi</b> shalatnya. Jika diketahui di tengah shalat, ia langsung <b>menghadap kiblat</b>."
+        category: "munakahat", originalNumber: 148,
+        question: "Apa itu talak Sharih (terang) dan talak Kinayah (sindiran)?",
+        answer: "Talak dari segi lafaz ada dua jenis:<br>1. Talak Sharih: Talak dengan lafaz terang yang berasal dari huruf (ط-ل-ق), seperti 'Anti thaalik', 'Anti muthallaqa', 'Thalaqtuki'. Niat tidak dilihat; otomatis jatuh satu talak raj'i.<br>2. Talak Kinayah: Lafaz yang pada dasarnya tidak khusus untuk talak tetapi bisa berarti talak atau hal lain. Jatuhnya talak tergantung pada niat atau konteks pembicaraan tentang talak."
     },
     {
-        category: "shalat", originalNumber: 151,
-        question: "Apa itu shalat nafilah?",
-        answer: "Nafilah secara bahasa berarti tambahan. Secara syariat, nafilah adalah amalan yang bukan fardu, bukan wajib, dan bukan sunah. Jika seseorang memulai shalat nafilah lalu membatalkannya, ia wajib mengqadanya."
+        category: "munakahat", originalNumber: 149,
+        question: "Apa itu talak raj'i dan talak ba'in? Apa hukumnya?",
+        answer: "Talak raj'i: Talak di mana suami masih berhak rujuk selama masa idah istri tanpa akad baru. Jika suami rujuk dalam masa idah, pernikahan berlanjut tanpa perlu akad baru dan tanpa perlu persetujuan istri.<br>Talak ba'in: Talak di mana suami tidak memiliki hak rujuk, dan kembalinya tergantung kerelaan istri dengan akad dan mahar baru.<br>Bainunah Shughra: Satu atau dua talak ba'in. Boleh menikah lagi dengan akad dan mahar baru.<br>Bainunah Kubra: Talak tiga (bisa sekaligus atau bertahap). Tidak boleh menikah lagi sebelum istri menikah dengan laki-laki lain dan bercerai dari pernikahan tersebut (halalan)."
     },
     {
-        category: "shalat", originalNumber: 152,
-        question: "Apa yang harus dilakukan orang yang lupa duduk tahiyat pertama?",
-        answer: "Jika ia <b>lebih dekat ke posisi duduk</b>, ia kembali duduk dan membaca tahiyat.<br>Jika ia <b>lebih dekat ke posisi berdiri</b>, ia meneruskan berdiri dan melakukan sujud sahwi."
+        category: "munakahat", originalNumber: 150,
+        question: "Apa itu Hallah (حله)?",
+        answer: "Hallah adalah keadaan di mana wanita yang telah dicerai suaminya dengan tiga talak ingin kembali kepada suami lamanya, atau suami yang menceraikan ingin menikahi kembali wanita tersebut. Syarat untuk bisa menikah lagi adalah: si wanita harus menikah dengan laki-laki lain dan bercerai darinya, atau suami kedua meninggal.<br>Hadis Nabi ﷺ: 'Allah melaknat muhill (yang menikahi wanita untuk menjadikannya halal bagi suami pertama) dan muhallal lahu (suami pertama).'<br>Nikah halalan dengan niat itu adalah haram."
     },
     {
-        category: "shalat", originalNumber: 153,
-        question: "Apa yang harus dilakukan orang yang lupa duduk tahiyat akhir (qa'dah terakhir)?",
-        answer: "Jika ia berdiri ke rakaat kelima, <b>selama belum sujud</b> ia bisa kembali duduk dan melakukan sujud sahwi.<br>Jika ia <b>sudah sujud</b> pada rakaat kelima, shalat fardu-nya batal dan berubah menjadi nafilah; ia harus menambahkan rakaat keenam."
+        category: "munakahat", originalNumber: 151,
+        question: "Apa itu Ila', Khul', Zhihar, dan Li'an?",
+        answer: "Ila': Sumpah suami untuk tidak mendekati istrinya selama empat bulan atau lebih. Jika suami tidak mendekati istri selama masa ila', maka jatuh satu talak ba'in. Jika mendekati, ia wajib membayar kafarat sumpah.<br>Khul': Pemutusan ikatan pernikahan dengan imbalan harta yang disepakati istri. Dengan khul', istri dicerai dengan satu talak ba'in dan wajib membayar tebusan.<br>Zhihar: Seorang suami menyerupakan istrinya dengan bagian tubuh mahramnya yang tidak boleh dilihat. Suami tidak boleh mendekati istrinya sebelum membayar kafarat zhihar.<br>Li'an: Suami dan istri saling bersumpah di hadapan hakim setelah empat kali kesaksian; suami mendapat laknat dan istri mendapat murka Allah, kemudian mereka berpisah."
     },
     {
-        category: "shalat", originalNumber: 154,
-        question: "Apa yang harus dilakukan orang yang ragu tentang jumlah rakaat dalam shalat?",
-        answer: "Jika <b>baru pertama kali</b> ragu, ia mengulangi shalatnya dari awal.<br>Jika ia <b>sering ragu</b>, ia melanjutkan shalatnya berdasarkan dugaan yang lebih kuat (zhan ghalib)."
+        category: "munakahat", originalNumber: 152,
+        question: "Apa itu Idah? Berapa lama masa idah?",
+        answer: "Idah secara bahasa: menghitung. Secara syariat: masa tunggu yang wajib dijalani wanita setelah berakhirnya ikatan pernikahan sebelum boleh menikah lagi.<br>Masa-masa idah:<br>1. Wanita yang dicerai dan masih mengalami haid: tiga kali haid (untuk wanita merdeka) atau dua kali haid (untuk budak perempuan).<br>2. Wanita yang dicerai dan tidak mengalami haid (karena usia tua atau muda): tiga bulan (merdeka) atau satu setengah bulan (budak).<br>3. Wanita yang dicerai dalam keadaan hamil: sampai melahirkan.<br>4. Wanita yang ditinggal mati suaminya: empat bulan sepuluh hari (merdeka) atau dua bulan lima hari (budak)."
     },
     {
-        category: "shalat", originalNumber: 155,
-        question: "Apa yang dilakukan kepada orang yang sedang sekarat (muhtadar)?",
-        answer: "<b>Sebelum meninggal:</b> Dibaringkan menghadap kiblat di atas sisi kanan. Ditalkin kalimat syahadat tanpa paksaan. Sesekali bibirnya dibasahi dengan kapas.<br><b>Setelah meninggal:</b> Rahangnya diikat, matanya dipejamkan, tubuhnya diluruskan dan ibu jari kaki diikat. Perhiasan dilepas. Saat akan dimandikan, aurat ditutup kain, pakaian dilepas, diberi wudu, kemudian seluruh tubuhnya dimandikan dan dikafankan."
+        category: "munakahat", originalNumber: 153,
+        question: "Apa itu Nafaqah? Siapa saja yang wajib diberi nafaqah?",
+        answer: "Nafaqah: segala sesuatu yang dibutuhkan seseorang untuk dapat hidup, berupa makanan, pakaian, dan tempat tinggal.<br>Dalam Islam, kewajiban menafkahi istri dan anak-anak diberikan kepada laki-laki (suami) sebagai kepala keluarga. Selain itu, jika orang tua, saudara, dan kerabat lainnya membutuhkan, kewajiban nafaqah juga mencakup mereka.<br>Nafaqah istri: Ketika istri menyerahkan dirinya kepada suami di rumahnya, maka seluruh biaya makanan, pakaian, dan tempat tinggal menjadi tanggungan suami, sesuai dengan taraf hidup keduanya."
     },
     {
-        category: "shalat", originalNumber: 156,
-        question: "Siapa yang paling berhak mengimami shalat jenazah?",
-        answer: "1. <b>Sultan (penguasa/pemerintah)</b>, jika hadir.<br>2. Jika tidak ada, <b>imam yang biasa ia jadikan imam shalat semasa hidupnya</b>.<br>3. Setelah itu, <b>wali si mayit</b>."
+        category: "munakahat", originalNumber: 154,
+        question: "Apa itu Hadhanah (hak asuh anak)?",
+        answer: "Hadhanah secara bahasa: merawat dan mendidik anak. Secara syariat: Memelihara dan mendidik anak oleh orang yang berwenang hingga anak mencapai usia tertentu (laki-laki hingga 7 tahun, perempuan hingga dewasa/haid) setelah pernikahan bubar.<br>Ketika orang tua berpisah, ibu lebih layak merawat anak karena penuh kasih sayang. Jika tidak ada ibu, maka nenek dari pihak ibu lebih utama dari nenek pihak ayah.<br>Untuk anak laki-laki: Lebih baik bersama ibu atau nenek hingga ia bisa makan, minum, berpakaian, dan bersuci sendiri.<br>Untuk anak perempuan: Lebih baik bersama ibu atau nenek hingga ia haid."
+    },
+    // BAGIAN VIII: UKUBAT / JINAYET (عقوبات)
+    {
+        category: "ukubat", originalNumber: 155,
+        question: "Apa itu Jinayat? Ada berapa jenis pembunuhan? Apa itu pembunuhan sengaja dan semi-sengaja?",
+        answer: "Jinayat berarti membunuh seseorang atau memotong/melukai anggota tubuhnya.<br>Pembunuhan ada lima jenis: pembunuhan sengaja, semi-sengaja, keliru, yang dijalankan seperti keliru, dan karena sebab.<br>Pembunuhan Sengaja (Qatl 'Amad): membunuh dengan senjata atau benda tajam yang dapat melukai. Hukumnya: dosa dan qisas. Jika wali korban memaafkan, qisas gugur. Tidak ada kafarat.<br>Pembunuhan Semi-Sengaja (Qatl Syibhu 'Amad): Menurut Imam A'zam, memukul dengan benda yang bukan senjata hingga tewas. Hukumnya: berdosa, wajib kafarat dan diyat mughallazah (yang diperberat) atas 'aqilah (keluarga pelaku). Tidak ada qisas."
     },
     {
-        category: "shalat", originalNumber: 157,
-        question: "Apa yang dilakukan terhadap bayi yang meninggal setelah dilahirkan?",
-        answer: "1. Jika ada <b>tanda-tanda kehidupan</b> setelah lahir (seperti menangis), maka diberi nama, dimandikan, dan dishalati.<br>2. Jika <b>tidak ada tanda kehidupan</b>, maka dibungkus dengan kain dan dikuburkan <b>tanpa dishalati</b>."
-    },
-    // TAMBAHAN PERTANYAAN BARU - ZAKAT
-    {
-        category: "zakat", originalNumber: 158,
-        question: "Untuk apa saja tidak ada kewajiban zakat?",
-        answer: "Tidak ada kewajiban zakat untuk:<br>1. Rumah yang ditempati.<br>2. Pakaian yang dikenakan.<br>3. Perabot rumah tangga.<br>4. Hewan yang dikendarai.<br>5. Pelayan/pembantu.<br>6. Senjata yang digunakan."
+        category: "ukubat", originalNumber: 156,
+        question: "Apa itu pembunuhan keliru dan pembunuhan karena sebab? Apa hukumnya?",
+        answer: "Pembunuhan Keliru (Qatl Khatha') terjadi dalam dua bentuk:<br>1. Keliru dalam niat: Menyangka sasaran adalah hewan buruan, lalu memanahnya dan ternyata manusia.<br>2. Keliru dalam perbuatan: Memanah ke target namun mengenai manusia.<br>Hukumnya: Kafarat dan diyat wajib atas 'aqilah. Tidak ada dosa, karena tidak disengaja.<br>Pembunuhan yang Dijalankan Seperti Keliru: Seseorang yang sedang tidur jatuh menimpa orang lain hingga tewas. Hukumnya sama.<br>Pembunuhan Karena Sebab: Menggali sumur atau meletakkan batu di tempat bukan miliknya, lalu seseorang terperosok hingga tewas. Hukumnya: diyat wajib atas keluarganya, tidak ada kafarat."
     },
     {
-        category: "zakat", originalNumber: 159,
-        question: "Apakah boleh membayar zakat dengan nilai uang (bukan barang aslinya)?",
-        answer: "Ya, <b>boleh (sah)</b>. Tidak wajib memberikan zakat dalam bentuk barang aslinya; memberikan nilainya dalam bentuk uang juga diperbolehkan."
+        category: "ukubat", originalNumber: 157,
+        question: "Apa itu kafarat pembunuhan? Apa itu Diyat dan berapa kadarnya?",
+        answer: "Kafarat pembunuhan (untuk keliru dan semi-sengaja): Memerdekakan seorang budak mukmin. Jika tidak mampu, berpuasa dua bulan berturut-turut. Tidak ada kewajiban memberi makan 60 orang miskin.<br>Diyat: Harta yang dibayarkan kepada korban atau ahli warisnya sebagai pengganti jiwa akibat tindak kejahatan seperti pembunuhan atau pelukaan.<br>Diyat Mughallazah (Diperberat): Wajib dalam pembunuhan semi-sengaja, yaitu 100 ekor unta.<br>Diyat Normal: Wajib dalam pembunuhan keliru. Menurut Imam A'zam: 100 ekor unta, atau 1.000 dinar emas, atau 10.000 dirham perak."
     },
     {
-        category: "zakat", originalNumber: 160,
-        question: "Bagaimana kualitas harta yang harus diberikan sebagai zakat?",
-        answer: "Yang terbaik dan yang terburuk tidak diambil, melainkan yang <b>pertengahan (sedang)</b>."
+        category: "ukubat", originalNumber: 158,
+        question: "Apa itu Arsy? Apa itu Syajjah dan ada berapa jenisnya?",
+        answer: "Arsy secara bahasa: ganti rugi, tanggungan. Secara syariat: diyat yang dibayarkan kepada korban dalam tindak kejahatan terhadap anggota tubuh selain pembunuhan.<br>Syajjah adalah luka-luka yang terjadi di kepala dan wajah, ada sepuluh jenis:<br>1. Harishah: Hanya kulit yang sobek.<br>2. Dami'ah: Darah keluar sebesar air mata.<br>3. Damiyah: Darah mengalir.<br>4. Badhi'ah: Daging terpotong.<br>5. Mutalahimah: Daging terpotong dalam.<br>6. Simhaq: Lapisan tipis antara daging dan tulang mulai terlihat.<br>7. Mudhihah: Tulang terlihat - jika sengaja: qisas; jika keliru: 1/20 diyat.<br>8. Hasyimah: Tulang retak - 2/20 diyat.<br>9. Munqilah: Tulang patah dan bergeser - 3/20 diyat.<br>10. Ammah: Luka hingga mencapai otak - 1/3 diyat penuh."
     },
     {
-        category: "zakat", originalNumber: 161,
-        question: "Bagaimana jika harta binasa setelah zakat menjadi wajib?",
-        answer: "Kewajiban zakatnya <b>gugur (tidak perlu dibayar)</b>. Karena kewajiban zakat yang melekat pada harta tersebut ikut gugur bersama lenyapnya harta."
+        category: "ukubat", originalNumber: 159,
+        question: "Apa itu Had? Apa hukum zina dan bagaimana pembuktiannya? Apa itu had zina?",
+        answer: "Had (jamak: Hudud) secara syariat: Hukuman-hukuman tertentu yang ditetapkan Allah dan wajib dilaksanakan oleh penguasa.<br>Hukum zina: Haram. Zina dibuktikan dengan kesaksian atau pengakuan. Dengan kesaksian: empat orang laki-laki bersaksi melihat keduanya berzina. Dengan pengakuan: seseorang yang baligh dan berakal mengakui perbuatan zina dalam empat majelis yang berbeda.<br>Had Zina: Jika pezina Muhshan (pernah menikah), dihukum rajam hingga mati. Jika belum pernah menikah (bikr), dicambuk 100 kali.<br>Muhshan dan Muhshanah: Laki-laki dan perempuan yang Muslim, merdeka, berakal, baligh, dan pernah menjalani pernikahan yang sah."
     },
     {
-        category: "zakat", originalNumber: 162,
-        question: "Apakah boleh membayar zakat untuk tahun berikutnya sebelum setahun penuh berlalu, padahal sudah memiliki harta senisab?",
-        answer: "Ya, <b>boleh (sah)</b>. Ini disebut ta'jil zakat (mempercepat pembayaran zakat)."
+        category: "ukubat", originalNumber: 160,
+        question: "Apa itu Had Syurb (minum khamar)? Apa hukumannya?",
+        answer: "Had Syurb ada dua jenis:<br>1. Meminum khamar: Satu teguk pun sudah cukup (untuk pembuktian). Tidak dipersyaratkan mabuk.<br>2. Meminum minuman keras selain khamar: Dipersyaratkan sampai mabuk.<br>Pembuktian had minum: Jika seseorang tertangkap sedang minum dan tercium baunya, atau ada saksi yang bersaksi, atau ia sendiri mengakuinya.<br>Hukumannya: 80 cambukan untuk orang merdeka, 40 cambukan untuk budak.<br>Tanda mabuk: Menurut kedua Imam, ketika kata-katanya sudah kacau. Menurut Imam A'zam, ketika tidak bisa membedakan antara laki-laki dan perempuan, atau antara langit dan bumi."
+    },
+    {
+        category: "ukubat", originalNumber: 161,
+        question: "Apa itu Qadzaf (tuduhan zina)? Apa itu had Qadzaf? Apa itu Ta'zir?",
+        answer: "Qadzaf secara bahasa: melempar. Secara syariat: menuduh orang yang baik dan terhormat dengan tuduhan berzina.<br>Hukum had Qadzaf: Jika seseorang menuduh laki-laki atau perempuan yang muhshan dengan tuduhan zina secara terang-terangan, dan pihak yang dituduh meminta pelaksanaan had, maka hakim menegakkan had.<br>Hukumannya: 80 cambukan untuk orang merdeka, 40 cambukan untuk budak.<br>Ihshan (untuk pihak yang dituduh): Orang yang dituduh harus merdeka, berakal, baligh, Muslim, dan terpelihara dari perbuatan zina.<br>Ta'zir: Hukuman yang diterapkan untuk pelanggaran yang tidak ada had tertentu. Kadarnya: paling banyak 39 cambukan, paling sedikit tiga cambukan."
+    },
+    {
+        category: "ukubat", originalNumber: 162,
+        question: "Apa itu Sariqah (pencurian)? Apa itu had Sariqah?",
+        answer: "Sariqah secara bahasa: Mengambil sesuatu milik orang lain secara sembunyi-sembunyi tanpa izin pemiliknya.<br>Sariqah secara syariat: Seorang mukallaf mengambil secara sembunyi-sembunyi harta senilai 10 dirham atau lebih.<br>Pembuktian had pencurian: Dengan kesaksian dua orang saksi atau pengakuan pelaku sendiri.<br>Had pencurian: Tangan kanan pencuri dipotong dari pergelangan dan diberi kauterisasi dengan minyak mendidih. Jika mencuri kedua kalinya, kaki kirinya dipotong. Jika mencuri ketiga kalinya, imam memenjarakannya hingga ia bertobat."
+    },
+    {
+        category: "ukubat", originalNumber: 163,
+        question: "Apa saja minuman yang diharamkan?",
+        answer: "Minuman yang diharamkan ada empat:<br>1. Khamar: Air perasan anggur yang menggelembung, mengeras, dan berbusa tanpa dimasak.<br>2. Air perasan anggur yang dimasak hingga kurang dari 2/3-nya menguap.<br>3. Nabidz kurma kering (perasan yang mengeras).<br>4. Nabidz anggur kering (ketika kedua minuman ini menjadi kuat/memabukkan, maka haram)."
+    },
+    {
+        category: "ukubat", originalNumber: 164,
+        question: "Apa itu Shayd (berburu) dan Dzabayih (sembelihan)? Apa saja urat yang wajib dipotong saat menyembelih?",
+        answer: "Shayd: Berburu. Berburu menggunakan anjing terlatih, cheetah, dan burung seperti elang adalah halal.<br>Dzabayih: Hewan yang halal disembelih.<br>Urat-urat yang dipotong saat menyembelih ada empat:<br>1. Hulqum (tenggorokan/saluran napas).<br>2. Mari' (kerongkongan/saluran makan dan minum).<br>3 dan 4. Dua pembuluh darah di kedua sisi leher (wadj).<br>Jika semua urat ini dipotong, dagingnya halal dimakan. Menurut Imam A'zam: memotong mayoritas (yaitu tiga) sudah cukup. Jika penyembelih sengaja meninggalkan basmalah, hewannya bangkai dan dagingnya tidak boleh dimakan."
+    },
+    {
+        category: "ukubat", originalNumber: 165,
+        question: "Apa itu Udhhiyah (kurban) dan apa hukumnya? Kapan waktu berkurban?",
+        answer: "Udhhiyah: Menyembelih hewan tertentu pada waktu tertentu (hari raya Idul Adha) dengan niat mendekatkan diri kepada Allah. Wajib bagi setiap Muslim yang merdeka, baligh, mampu, dan mukim untuk menyembelih kurban untuk dirinya dan anak-anak kecilnya. Kurban bisa dari unta, sapi (boleh patungan 7 orang), atau kambing/domba.<br>Waktu kurban: Dimulai dari fajar hari raya, tetapi bagi penduduk kota tidak boleh menyembelih sebelum imam selesai mengimami shalat Id. Kurban boleh dilakukan selama tiga hari (hari pertama, kedua, ketiga Idul Adha). Hari pertama lebih utama."
+    },
+    {
+        category: "ukubat", originalNumber: 166,
+        question: "Apa itu Yamin (sumpah)? Ada berapa jenisnya? Apa itu kafarat sumpah?",
+        answer: "Yamin (sumpah): Ikatan kuat yang dilakukan seseorang untuk melakukan atau tidak melakukan sesuatu. Ada tiga jenis:<br>1. Yamin Ghumus: Bersumpah dusta tentang suatu yang telah lalu dengan sengaja. Berdosa, tidak ada kafarat selain istighfar.<br>2. Yamin Mun'aqidah: Sumpah untuk melakukan atau tidak melakukan sesuatu di masa mendatang. Jika dilanggar, wajib membayar kafarat.<br>3. Yamin Laghwi: Bersumpah tentang sesuatu di masa lalu yang diyakini benar, padahal ternyata salah. Kita berharap Allah tidak meminta pertanggungjawabannya.<br>Kafarat sumpah: 1) Memerdekakan budak; 2) Memberi makan atau pakaian kepada sepuluh orang miskin; 3) Berpuasa tiga hari berturut-turut."
+    },
+    {
+        category: "ukubat", originalNumber: 167,
+        question: "Apa itu Syahadah (kesaksian)? Ada berapa tingkatan kesaksian?",
+        answer: "Syahadah: Memberitahukan hak seseorang pada orang lain secara meyakinkan, tanpa keraguan.<br>Kesaksian terdiri dari empat tingkatan:<br>1. Kesaksian tentang zina: Hanya empat laki-laki yang diterima. Kesaksian perempuan tidak diterima.<br>2. Kesaksian di luar had dan qisas: Dua orang saksi diterima. Kesaksian perempuan tidak diterima.<br>3. Dalam hak-hak lainnya: Kesaksian dua laki-laki atau satu laki-laki dan dua perempuan diterima (baik hak harta maupun non-harta seperti nikah, cerai, dsb).<br>4. Dalam masalah yang tidak dapat diketahui laki-laki (seperti persalinan, keperawanan, dan aib tersembunyi): Kesaksian satu perempuan saja diterima."
+    },
+    {
+        category: "ukubat", originalNumber: 168,
+        question: "Apa itu Qasamah? Siapa itu Murtad? Apa itu Jihad?",
+        answer: "Qasamah: Lima puluh orang penduduk kampung tempat ditemukannya mayat dengan bekas pembunuhan yang tidak diketahui pelakunya, bersumpah bahwa mereka tidak membunuh dan tidak mengetahui siapa yang membunuh. Setelah bersumpah, diyat dibebankan kepada penduduk kampung tersebut.<br>Murtad: Orang Muslim yang keluar dari agama Islam dan menjadi kafir. Ketika seorang Muslim murtad, ia diberitahu tentang kebenaran Islam, dihilangkan keraguan-keraguannya, dan dipenjara tiga hari. Jika ia kembali Islam, ia dibebaskan; jika ia bersikeras dalam kekafirannya, ia dihukum mati. Wanita yang murtad tidak dihukum mati, tetapi dipenjara hingga kembali masuk Islam.<br>Jihad: Fardu kifayah bagi laki-laki Muslim yang merdeka dan baligh."
+    },
+    {
+        category: "ukubat", originalNumber: 169,
+        question: "Apa itu Wasiat dan apa hukumnya? Apa itu Hazr dan Ibahah?",
+        answer: "Wasiat: Seseorang menyerahkan hartanya secara sukarela kepada orang lain yang berlaku setelah kematiannya. Berwasiat tidak wajib, melainkan mustahab (dianjurkan). Tidak boleh berwasiat melebihi sepertiga harta warisan.<br>Hazr: Sesuatu yang dilarang digunakan secara syar'i.<br>Ibahah: Menghalalkan, membolehkan; lawan dari hazr.<br>Mubah: Sesuatu yang pelakunya tidak berhak mendapat pahala atau hukuman, dan diizinkan untuk dilakukan atau ditinggalkan.<br>Catatan penting: Memakai sutera haram bagi laki-laki, halal bagi perempuan. Makan dan minum dari wadah emas atau perak tidak diperbolehkan."
     }
-
 
         // Sisa soal Indonesia akan ada di bagian berikutnya
     ]
@@ -1667,7 +1731,9 @@ const uiStrings = {
         shalat: "نماز",
         zakat: "زكاة",
         puasa: "اوروچ",
-        haji: "حج"
+        haji: "حج",
+        munakahat: "مناكحات",
+        ukubat: "عقوبات"
     },
     indonesia: {
         pageTitle: "Tanya Jawab Quduri Syarif",
@@ -1682,7 +1748,9 @@ const uiStrings = {
         shalat: "Shalat",
         zakat: "Zakat",
         puasa: "Puasa",
-        haji: "Haji"
+        haji: "Haji",
+        munakahat: "Munakahat",
+        ukubat: "Ukubat"
     }
 };
 
