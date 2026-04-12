@@ -671,7 +671,157 @@ const allQuestionsData = {
         category: "haji", originalNumber: 133, // Di PDF Indonesia jadi soal 133, di PDF Osmanlica "۱۳۳ -"
         question: "هدی نه در؟",
         answer: "هدی حضرت اللهه ياقينلق ایچون حرم شریفده کسیان قرباندر بو قربان ،دوه صيغير و قویوندر بو حيوانلرك قربان إيديله بيلمه سی ایچون؛ دوه نك بش صيغيرك ايكى قويوننده بر پاشنه گیرمش اولماسی لازمدر آنجق قوچك آلتی آیلق اولانی کافی در بو شکلده حیوانلر ده آرانان پاش حدينه \"ثنیه دینور. (یعنی ۲ یاش)"
+    },
+    // TAMBAHAN PERTANYAAN BARU - MUKADDIMAH
+    {
+        category: "mukaddimah", originalNumber: 134,
+        question: "حنفى فقهى سلسله سى كيملردر؟",
+        answer: "امام اعظم ← حماد ← إبراهيم النخعى ← علقمه ← عبدالله بن مسعود رضى الله عنه ← پيغمبر افنديمز صل الله عليه وسلم ← جبرائيل عليه السلام ← حضرت الله."
+    },
+    {
+        category: "mukaddimah", originalNumber: 135,
+        question: "حنفى فقهنده امام، امامين، طرفين و شيخين كيملره دينور؟",
+        answer: "<b>امام؛</b> امام اعظم ابو حنيفه حضرتلريدر.<br><b>امامين؛</b> امام ابو يوسف و امام محمد حضرتلريدر.<br><b>شيخين؛</b> امام اعظم و امام ابو يوسف حضرتلريدر.<br><b>طرفين؛</b> امام اعظم و امام محمد حضرتلريدر."
+    },
+    // TAMBAHAN PERTANYAAN BARU - TOHARAH
+    {
+        category: "toharah", originalNumber: 136,
+        question: "آبدستسز كيمسه يه حرام اولان شيئلر نلردر؟",
+        answer: "۱- نماز قيلمق،<br>۲- قرآن كريمه غليفسز طوقونمق،<br>۳- كعبه معظمه يى طواف ايتمك."
+    },
+    {
+        category: "toharah", originalNumber: 137,
+        question: "غسل آلمانك سنت اولديغى يرلر نلردر؟",
+        answer: "۱- جمعه ايچون،<br>۲- رمضان بايرامى ايچون،<br>۳- قربان بايرامى ايچون،<br>۴- عرفاتده وقفه ايچون،<br>۵- احرام ايچون."
+    },
+    {
+        category: "toharah", originalNumber: 138,
+        question: "مَذِى و وَدِى ندر؟ غسل ايجاب ايدرمى؟",
+        answer: "<b>مَذى:</b> اويناشمادن طولايى چيقان بياض اينجه صودر.<br><b>وَدى:</b> بولك عقبنده چيقان قالين صارى صودر.<br>ايكيسى ده <b>غسل ايجاب ايتمز</b>. آنجق <b>آبدست ايجاب ايدر</b>."
+    },
+    {
+        category: "toharah", originalNumber: 139,
+        question: "جنب اولان كيمسه يه حرام اولان شيلر نلردر؟",
+        answer: "۱- نماز قيلمق،<br>۲- قرآن كريمه طوقونمق و اوقومق،<br>۳- كعبه معظمه يى طواف ايتمك،<br>۴- مسجده كيرمك."
+    },
+    {
+        category: "toharah", originalNumber: 140,
+        question: "آقيجى صويه نجاست دوشسه حكم ندر؟",
+        answer: "اگر نجاستك اثرى (رنك، قوقو، تاد) كورولميورسه اورادن آبدست آلمق <b>جائز در</b>."
+    },
+    {
+        category: "toharah", originalNumber: 141,
+        question: "بويوك كوله نجاست دوشسه حكم ندر؟",
+        answer: "ايكى طرفدن بيرينك حركت ايتديريلمه سى ايله ديكر طرف حركت ايتمه ين بويوك كوله نجاست دوشرسه، <b>نجاستك دوشديغى طرفدن غير طرف</b> اوزرينه جائز در."
+    },
+    {
+        category: "toharah", originalNumber: 142,
+        question: "هانكى حيوانلر صويه دوشسه صويى نجس ياپماز؟",
+        answer: "۱- سيورى سينك، قارا سينك، آرى و عقرب كيبى <b>آقيجى قان اولمايان حيوانلر</b>.<br>۲- بالق، قوربغه، ينكج كيبى <b>صوده ياشايان حيوانلرك</b> اولمه سى ايله صويى نجس ياپماز."
+    },
+    {
+        category: "toharah", originalNumber: 143,
+        question: "قويوده حيوان شيشسه و داغيلسه حكم ندر؟",
+        answer: "۱- حيوان ايستر كوچوك ايستر بويوك اولسون، شيشسه ويا داغيلسه <b>قويونك تمامى بوشالتيلر</b>.<br>۲- اگر صو قاينايوب بوشالتمق ممكن اولمازسه <b>٢۰۰ ايله ٣۰۰ قووه</b> آراسى بوشالتيلر."
+    },
+    {
+        category: "toharah", originalNumber: 144,
+        question: "قويويه حيوانك نه زمان دوشديكى بيلينمزسه حكم ندر؟",
+        answer: "۱- حيوان شيشمه مش و داغيلمامش ايسه <b>بر كون بر كيجه لك نماز اعاده</b> ايديلر.<br>۲- شيشمش و داغيلمش ايسه؛ <b>امام اعظمه كوره</b> اوج كون اوج كيجه لك نماز اعاده ايديلر. <b>امامينه كوره</b> ايسه نه زمان دوشديكى بيلينكجه يه قدر اعاده ايديلمز."
+    },
+    {
+        category: "toharah", originalNumber: 145,
+        question: "مقيم اولارق مسحه باشلايوب صكره مسافر اولان ويا مسافر اولارق مسحه باشلايوب صكره مقيم اولان كيمسه نك حكمى ندر؟",
+        answer: "۱- مقيم ايكن مسحه باشلايوب بر كون بر كيجه طولمادن مسافر اولسه <b>اوج كون اوج كيجه يه</b> تماملر.<br>۲- مسافر ايكن مسحه باشلايوب صكره بر كون بر كيجه ويا دها فضلا زمان كجمش ايسه <b>مستلرى چيقارير</b>. بر كون بر كيجه ده آز ايسه بر كون بر كيجه يه تماملر."
+    },
+    {
+        category: "toharah", originalNumber: 146,
+        question: "نه لر اوزرينه مسح ياپيلماز؟",
+        answer: "۱- صاريق (سرقع)،<br>۲- طاككه (صوف طاقيه)،<br>۳- په چه (يوز اورتوسى)،<br>۴- الديونلر (قول قاپاقلرى) اوزرينه مسح ياپيلماز."
+    },
+    {
+        category: "toharah", originalNumber: 147,
+        question: "استنجاء، استنقاء و استبراء نه ديمكدر؟ نه لر ايله استنجاء يابيلماز؟",
+        answer: "<b>استنجاء:</b> بر كيمسه نك دفع حاجتدن صگره پيسلگك چيقديغى يرى تميزله مه سيدر.<br><b>استنقاء:</b> استنجاء ده مبالغه ياپمقدر؛ اوكجه قورى بر شيله سيلمك، صكره صو ايله ييقامق، صكره قورولامقدر.<br><b>استبراء:</b> اركلكلرك ايدرار ياپدقدن صكره اركلكلك عضوسنده كى آقينتييى تماما كسيپ گيدرمه لريدر.<br><b>شونلر ايله استنجاء يابيلماز:</b> صاغ ال ايله، غدا ماده لرى ايله، كميك ايله، حيوان ترسى ايله، جام ايله، كيرچ ايله."
+    },
+    // TAMBAHAN PERTANYAAN BARU - SHALAT
+    {
+        category: "shalat", originalNumber: 148,
+        question: "كچمش نمازلر خصوصنده اذان وقامت اوقومانك حكمى ندر؟",
+        answer: "كجمش نمازلر ايچون اذان وقامت اوقونر. اگر بردن فضلا نماز كجمش ايسه بيرنجى ايچون اذان وقامت اوقور، ديكرلرنده <b>استرسه اوقور استرسه اوقوماز</b>."
+    },
+    {
+        category: "shalat", originalNumber: 149,
+        question: "اركك، حر قادين و جاريه ايچون عورت محللى ندر؟",
+        answer: "<b>اركك ايچون:</b> گوبك دلگى آلتيندن ديز قپاغينه قدر (ديز قپاغى داخل).<br><b>حر قادين ايچون:</b> يوزى، اللرى و آياقلرى خارج وجودينك تمامى.<br><b>جاريه ايچون:</b> اركگك عورت يرلرينه علاوتن قارنى و صرتيده عورتدر."
+    },
+    {
+        category: "shalat", originalNumber: 150,
+        question: "قبله يى قاريشديران نه ياپار؟",
+        answer: "اگر بر كيمسه قبله يى بيله مز سه آراشديرير و نمازينى قيلار. نماز قيلدقدن صكره خطا ايتديكينى بيلسه <b>اعاده لازم كلمز</b>. اگر نماز ايچونده بيلسه <b>قبله يه دونر</b>."
+    },
+    {
+        category: "shalat", originalNumber: 151,
+        question: "نافله ندر؟",
+        answer: "نافله <b>لغتده</b> زياده معناسينه در. <b>شرعا</b> فرض، واجب و سنت اولمايان فعلدن عبارتدر. نافله نمازه باشلايوپ بوزان اونى قضا ايدر."
+    },
+    {
+        category: "shalat", originalNumber: 152,
+        question: "برنجى قعده ده اوتورمايى اونوتان نه ياپار؟",
+        answer: "اگر <b>قعود حالينه داها يقينسه</b> اوتورور و تشهد اوقور. اگر <b>قيامه داها يقينسه</b> قيامه قالقالر و سهو سجده سى ياپار."
+    },
+    {
+        category: "shalat", originalNumber: 153,
+        question: "صوك قعده ده اوتورمايى اونوتان نه ياپار؟",
+        answer: "اگر بشنجى ركعته قالقارسه، <b>سجده ايتمه ديكى مدتچه</b> قعوده دونر و سهو سجده سى ياپار.<br>اگر سجده ايله قيدلامش ايسه فرض بوزولر و نافله اولور؛ بشنجى ركعته آلتنجى ركعتى ده علاوه ايتمه سى لازم كلير."
+    },
+    {
+        category: "shalat", originalNumber: 154,
+        question: "نمازده ركعتلرك عددنده شبهه ايدن كيمسه نه ياپار؟",
+        answer: "اگر <b>الك دفعه</b> شبهه ايتمش ايسه نمازى تكرار قيلار.<br>اگر چوق شبهه ايدييور سه <b>ظن غالبى</b> اوزره نمازينى بنا ايدر."
+    },
+    {
+        category: "shalat", originalNumber: 155,
+        question: "محتضره (اولومه يقين اولانه) نه يابيلر؟",
+        answer: "<b>اولمه دن اونجه؛</b> صاغ طرف اوزرينه قبله يه جوريلر. زورلامادن كلمه ى شهادت تلقين ايديلر. آرا آرا دوداغينه پاموق و بنزرى شيلرله صو ايله اصلاتيلر.<br><b>اولدقدن صكره؛</b> جنه سى باغلانر، كوزلرى يومولر، دوز حاله كتيريلر و آياق باش بارمقلرى باغلانر. زينت اشياسى چيقاريلر. ييقانيلاجاغى زمان عورت محللينه ستر بزى قونور، البسه لر چيقاريلر، آبدست آلديريلر، صكره هر يرى ييقانر و كفنله نر."
+    },
+    {
+        category: "shalat", originalNumber: 156,
+        question: "جنازه نمازينى قيلديرمايه اك لايق اولانلر كيملردر؟",
+        answer: "۱- اگر حاضرسه <b>سلطان</b> (دولت ياكيسى)،<br>۲- سلطان يوقسه حال حياتنده ايكن آرقهسنده نماز قيلديغى <b>امام</b>،<br>۳- صكره <b>ولى</b> در."
+    },
+    {
+        category: "shalat", originalNumber: 157,
+        question: "طوغومدن صكره اولن بهبهكه نه يابيلر؟",
+        answer: "۱- اگر طوغدقدن صكره سس چيقارمق كيبى <b>حيات علامتى</b> اولسه؛ اسم ويريلر، ييقانر و جنازه نمازى قيلينر.<br>۲- اگر <b>حيات علامتى اولمازسه</b>؛ بر بز ايجينه دورولر، جنازه نمازى قيلينمادن دفن ايديلر."
+    },
+    // TAMBAHAN PERTANYAAN BARU - ZAKAT
+    {
+        category: "zakat", originalNumber: 158,
+        question: "نرلرده زكات يوقدر؟",
+        answer: "۱- اوتورديغى <b>اولرده</b>،<br>۲- كييديكى <b>البسه لرده</b>،<br>۳- او <b>اشياسنده</b>،<br>۴- بينديكى <b>حيوانلرده</b>،<br>۵- <b>خدمت جيسنده</b>،<br>۶- قوللانديغى <b>سلاحده</b> زكات يوقدر."
+    },
+    {
+        category: "zakat", originalNumber: 159,
+        question: "زكاتده ماللرك قيمتنى ويرمك جائز ميدر؟",
+        answer: "اوت، <b>جائز در</b>. زكات مالنك عينينى ويرمك واجب دكلدر، قيمتنى ويرمك ده جائز در."
+    },
+    {
+        category: "zakat", originalNumber: 160,
+        question: "زكات اولارق ويريله جك مال ناصل اولمالى لازم؟",
+        answer: "اك اييسنى و اك كوتوسنى آلماز، <b>اورطه حاللى</b> اولان آلر."
+    },
+    {
+        category: "zakat", originalNumber: 161,
+        question: "زكات فرض اولدقدن صكره مال هلاك اولسه دوروم ندر؟",
+        answer: "زكات <b>دوشر</b> (ساقط اولر). چونكه مالك كلمهسى ايله فرض اولان زكات مالك يوق اولمه سيله دوشر."
+    },
+    {
+        category: "zakat", originalNumber: 162,
+        question: "نصابه مالك اولديغى حالده بر سنه طولمادن كله جك سنه نك زكاتندن ويرمك جائز ميدر؟",
+        answer: "اوت، <b>جائز در</b>. يعنى تعجيلن زكات ويرمك جائز در."
     }
+
 ],
         // Sisa soal Osmanlica akan ada di bagian berikutnya
         
@@ -1347,7 +1497,157 @@ const allQuestionsData = {
         category: "haji", originalNumber: 133,
         question: "Apa itu Hadyu?",
         answer: "Hadyu adalah hewan kurban yang disembelih di Tanah Haram untuk mendekatkan diri kepada Allah. Hewan kurban ini bisa berupa unta, sapi, atau kambing. Untuk sah dikurbankan, unta harus berumur lima tahun, sapi dua tahun, dan kambing satu tahun. Namun, domba berumur enam bulan sudah cukup. Batas usia hewan yang dicari ini disebut \"tsaniyah\" (yaitu umur 2 tahun)."
+    },
+    // TAMBAHAN PERTANYAAN BARU - MUKADDIMAH
+    {
+        category: "mukaddimah", originalNumber: 134,
+        question: "Siapa saja silsilah fiqih Hanafi?",
+        answer: "Imam A'zam ← Hammad ← Ibrahim an-Nakha'i ← Alqamah ← Abdullah bin Mas'ud r.a. ← Nabi Muhammad SAW ← Jibril AS ← Allah Ta'ala."
+    },
+    {
+        category: "mukaddimah", originalNumber: 135,
+        question: "Siapa yang disebut Imam, Imamain, Tarafeyn, dan Şeyheyn dalam fiqih Hanafi?",
+        answer: "<b>Imam:</b> Imam A'zam Abu Hanifah.<br><b>Imamain:</b> Imam Abu Yusuf dan Imam Muhammad.<br><b>Şeyheyn:</b> Imam A'zam dan Imam Abu Yusuf.<br><b>Tarafeyn:</b> Imam A'zam dan Imam Muhammad."
+    },
+    // TAMBAHAN PERTANYAAN BARU - TOHARAH
+    {
+        category: "toharah", originalNumber: 136,
+        question: "Apa saja yang haram bagi orang yang tidak berwudu?",
+        answer: "1. Mengerjakan shalat.<br>2. Menyentuh Al-Qur'an tanpa pelindung/sarung.<br>3. Tawaf di Ka'bah Muazzamah."
+    },
+    {
+        category: "toharah", originalNumber: 137,
+        question: "Di mana saja mandi (ghusl) itu merupakan sunah?",
+        answer: "1. Untuk shalat Jumat.<br>2. Untuk Idul Fitri.<br>3. Untuk Idul Adha.<br>4. Untuk wukuf di Arafah.<br>5. Untuk ihram."
+    },
+    {
+        category: "toharah", originalNumber: 138,
+        question: "Apa itu madzi dan wadi? Apakah mewajibkan mandi?",
+        answer: "<b>Madzi:</b> Cairan putih encer yang keluar karena rangsangan/cumbu rayu.<br><b>Wadi:</b> Cairan kuning kental yang keluar setelah buang air kecil.<br>Keduanya <b>tidak mewajibkan mandi</b>, tetapi mewajibkan wudu."
+    },
+    {
+        category: "toharah", originalNumber: 139,
+        question: "Apa saja yang haram bagi orang yang junub?",
+        answer: "1. Mengerjakan shalat.<br>2. Menyentuh dan membaca Al-Qur'an.<br>3. Tawaf di Ka'bah Muazzamah.<br>4. Masuk masjid."
+    },
+    {
+        category: "toharah", originalNumber: 140,
+        question: "Bagaimana hukumnya jika ada najis yang jatuh ke dalam air yang mengalir?",
+        answer: "Jika tidak ada tanda-tanda najis (perubahan warna, bau, atau rasa) yang terlihat, maka boleh berwudu dengan air tersebut."
+    },
+    {
+        category: "toharah", originalNumber: 141,
+        question: "Bagaimana hukumnya jika ada najis yang jatuh ke dalam kolam (danau) besar?",
+        answer: "Kolam besar yang jika salah satu sisinya digerakkan, sisi lainnya tidak ikut bergerak, jika najis jatuh ke dalamnya maka boleh berwudu dari sisi yang tidak terkena najis."
+    },
+    {
+        category: "toharah", originalNumber: 142,
+        question: "Hewan apa saja yang jika mati di dalam air tidak membuat air menjadi najis?",
+        answer: "1. Hewan yang tidak memiliki darah mengalir, seperti nyamuk, lalat, lebah, dan kalajengking.<br>2. Hewan yang hidup di air seperti ikan, katak, dan kepiting — jika mati di dalam air tidak membuat air menjadi najis."
+    },
+    {
+        category: "toharah", originalNumber: 143,
+        question: "Bagaimana hukumnya jika hewan membusuk dan hancur di dalam sumur?",
+        answer: "1. Baik hewan besar maupun kecil, jika membusuk dan hancur di dalam sumur, <b>seluruh air sumur harus dikuras</b>.<br>2. Jika air sumur mendidih sehingga tidak mungkin dikuras, maka dikeluarkan antara 200 hingga 300 ember."
+    },
+    {
+        category: "toharah", originalNumber: 144,
+        question: "Bagaimana hukumnya jika tidak diketahui kapan hewan mati di dalam sumur?",
+        answer: "1. Jika hewan belum membusuk dan hancur, maka shalat <b>satu hari satu malam</b> harus diulangi.<br>2. Jika hewan sudah membusuk dan hancur: Menurut Imam A'zam, shalat <b>tiga hari tiga malam</b> harus diulangi. Menurut kedua Imam, tidak perlu diulangi hingga diketahui kapan hewan itu jatuh."
+    },
+    {
+        category: "toharah", originalNumber: 145,
+        question: "Bagaimana hukum orang yang memulai mengusap khuff saat mukim lalu menjadi musafir, atau sebaliknya?",
+        answer: "1. Jika memulai saat mukim dan belum genap satu hari satu malam lalu menjadi musafir, ia mengusap hingga genap <b>tiga hari tiga malam</b>.<br>2. Jika memulai saat musafir lalu menjadi mukim setelah genap satu hari satu malam atau lebih, ia harus <b>melepas khuff-nya</b>. Jika belum genap satu hari satu malam, ia mengusap hingga genap satu hari satu malam."
+    },
+    {
+        category: "toharah", originalNumber: 146,
+        question: "Apa saja yang tidak boleh diusap (dalam wudu)?",
+        answer: "1. Surban (penutup kepala),<br>2. Kopiah (peci),<br>3. Cadar (penutup wajah),<br>4. Sarung tangan.<br>Semua itu tidak boleh diusap dalam wudu."
+    },
+    {
+        category: "toharah", originalNumber: 147,
+        question: "Apa itu istinja, istinqa, dan istibra? Dengan apa saja istinja tidak boleh dilakukan?",
+        answer: "<b>Istinja:</b> Membersihkan tempat keluarnya kotoran setelah buang hajat.<br><b>Istinqa:</b> Melakukan istinja secara sempurna, yaitu pertama menyeka dengan benda kering yang bersih, lalu membasuh dengan air, kemudian mengeringkan.<br><b>Istibra:</b> Upaya kaum laki-laki untuk memastikan tidak ada sisa air kencing yang tertinggal setelah buang air kecil.<br><b>Yang tidak boleh digunakan untuk istinja:</b> tangan kanan, bahan makanan, tulang, kotoran hewan, kaca, dan kapur."
+    },
+    // TAMBAHAN PERTANYAAN BARU - SHALAT
+    {
+        category: "shalat", originalNumber: 148,
+        question: "Bagaimana hukum mengumandangkan azan dan ikamah untuk shalat yang terlewat (qada)?",
+        answer: "Untuk shalat yang terlewat, dikumandangkan azan dan ikamah. Jika lebih dari satu shalat yang terlewat, azan dan ikamah dikumandangkan untuk yang pertama; untuk selebihnya, <b>boleh dikumandangkan, boleh juga tidak</b>."
+    },
+    {
+        category: "shalat", originalNumber: 149,
+        question: "Apa batasan aurat bagi laki-laki, wanita merdeka, dan budak perempuan?",
+        answer: "<b>Laki-laki:</b> Dari bawah pusar hingga lutut (lutut termasuk aurat).<br><b>Wanita merdeka:</b> Seluruh tubuh kecuali wajah, kedua tangan, dan kedua kaki.<br><b>Budak perempuan:</b> Selain aurat laki-laki, juga termasuk perut dan punggungnya."
+    },
+    {
+        category: "shalat", originalNumber: 150,
+        question: "Apa yang harus dilakukan orang yang tidak tahu arah kiblat?",
+        answer: "Ia berusaha mencari tahu lalu shalat mengikuti perkiraannya. Jika setelah shalat diketahui arahnya salah, <b>tidak perlu mengulangi</b> shalatnya. Jika diketahui di tengah shalat, ia langsung <b>menghadap kiblat</b>."
+    },
+    {
+        category: "shalat", originalNumber: 151,
+        question: "Apa itu shalat nafilah?",
+        answer: "Nafilah secara bahasa berarti tambahan. Secara syariat, nafilah adalah amalan yang bukan fardu, bukan wajib, dan bukan sunah. Jika seseorang memulai shalat nafilah lalu membatalkannya, ia wajib mengqadanya."
+    },
+    {
+        category: "shalat", originalNumber: 152,
+        question: "Apa yang harus dilakukan orang yang lupa duduk tahiyat pertama?",
+        answer: "Jika ia <b>lebih dekat ke posisi duduk</b>, ia kembali duduk dan membaca tahiyat.<br>Jika ia <b>lebih dekat ke posisi berdiri</b>, ia meneruskan berdiri dan melakukan sujud sahwi."
+    },
+    {
+        category: "shalat", originalNumber: 153,
+        question: "Apa yang harus dilakukan orang yang lupa duduk tahiyat akhir (qa'dah terakhir)?",
+        answer: "Jika ia berdiri ke rakaat kelima, <b>selama belum sujud</b> ia bisa kembali duduk dan melakukan sujud sahwi.<br>Jika ia <b>sudah sujud</b> pada rakaat kelima, shalat fardu-nya batal dan berubah menjadi nafilah; ia harus menambahkan rakaat keenam."
+    },
+    {
+        category: "shalat", originalNumber: 154,
+        question: "Apa yang harus dilakukan orang yang ragu tentang jumlah rakaat dalam shalat?",
+        answer: "Jika <b>baru pertama kali</b> ragu, ia mengulangi shalatnya dari awal.<br>Jika ia <b>sering ragu</b>, ia melanjutkan shalatnya berdasarkan dugaan yang lebih kuat (zhan ghalib)."
+    },
+    {
+        category: "shalat", originalNumber: 155,
+        question: "Apa yang dilakukan kepada orang yang sedang sekarat (muhtadar)?",
+        answer: "<b>Sebelum meninggal:</b> Dibaringkan menghadap kiblat di atas sisi kanan. Ditalkin kalimat syahadat tanpa paksaan. Sesekali bibirnya dibasahi dengan kapas.<br><b>Setelah meninggal:</b> Rahangnya diikat, matanya dipejamkan, tubuhnya diluruskan dan ibu jari kaki diikat. Perhiasan dilepas. Saat akan dimandikan, aurat ditutup kain, pakaian dilepas, diberi wudu, kemudian seluruh tubuhnya dimandikan dan dikafankan."
+    },
+    {
+        category: "shalat", originalNumber: 156,
+        question: "Siapa yang paling berhak mengimami shalat jenazah?",
+        answer: "1. <b>Sultan (penguasa/pemerintah)</b>, jika hadir.<br>2. Jika tidak ada, <b>imam yang biasa ia jadikan imam shalat semasa hidupnya</b>.<br>3. Setelah itu, <b>wali si mayit</b>."
+    },
+    {
+        category: "shalat", originalNumber: 157,
+        question: "Apa yang dilakukan terhadap bayi yang meninggal setelah dilahirkan?",
+        answer: "1. Jika ada <b>tanda-tanda kehidupan</b> setelah lahir (seperti menangis), maka diberi nama, dimandikan, dan dishalati.<br>2. Jika <b>tidak ada tanda kehidupan</b>, maka dibungkus dengan kain dan dikuburkan <b>tanpa dishalati</b>."
+    },
+    // TAMBAHAN PERTANYAAN BARU - ZAKAT
+    {
+        category: "zakat", originalNumber: 158,
+        question: "Untuk apa saja tidak ada kewajiban zakat?",
+        answer: "Tidak ada kewajiban zakat untuk:<br>1. Rumah yang ditempati.<br>2. Pakaian yang dikenakan.<br>3. Perabot rumah tangga.<br>4. Hewan yang dikendarai.<br>5. Pelayan/pembantu.<br>6. Senjata yang digunakan."
+    },
+    {
+        category: "zakat", originalNumber: 159,
+        question: "Apakah boleh membayar zakat dengan nilai uang (bukan barang aslinya)?",
+        answer: "Ya, <b>boleh (sah)</b>. Tidak wajib memberikan zakat dalam bentuk barang aslinya; memberikan nilainya dalam bentuk uang juga diperbolehkan."
+    },
+    {
+        category: "zakat", originalNumber: 160,
+        question: "Bagaimana kualitas harta yang harus diberikan sebagai zakat?",
+        answer: "Yang terbaik dan yang terburuk tidak diambil, melainkan yang <b>pertengahan (sedang)</b>."
+    },
+    {
+        category: "zakat", originalNumber: 161,
+        question: "Bagaimana jika harta binasa setelah zakat menjadi wajib?",
+        answer: "Kewajiban zakatnya <b>gugur (tidak perlu dibayar)</b>. Karena kewajiban zakat yang melekat pada harta tersebut ikut gugur bersama lenyapnya harta."
+    },
+    {
+        category: "zakat", originalNumber: 162,
+        question: "Apakah boleh membayar zakat untuk tahun berikutnya sebelum setahun penuh berlalu, padahal sudah memiliki harta senisab?",
+        answer: "Ya, <b>boleh (sah)</b>. Ini disebut ta'jil zakat (mempercepat pembayaran zakat)."
     }
+
 
         // Sisa soal Indonesia akan ada di bagian berikutnya
     ]
